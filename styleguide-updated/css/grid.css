@@ -1,0 +1,75 @@
+.grid:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+/*used if you ever want a grid with no padding in the columns*/
+.grid.wo-padding [class*='col-'] {
+	padding: 0;
+}
+
+/*used if you ever want a grid with slightly less padding*/
+.grid.less-padding [class*='col-'] {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.col-2of12 {
+	width: 16.66%;
+}
+
+.col-3of12 {
+	width: 25%;
+}
+
+.col-4of12 {
+	width: 33.33%;
+}
+
+.col-5of12 {
+	width: 41.66%;
+}
+
+.col-6of12 {
+	width: 50%;
+}
+
+.col-8of12 {
+	width: 66.66%;
+}
+
+.col-12of12 {
+	width: 100%;
+}
+
+/*
+---
+MIN-WIDTH MEDIA QUERIES
+---
+*/
+@media (min-width: 72em) {
+	/*centered container is fixed after a certain point*/
+	.container-centered {
+		width: 62rem;
+	}
+}
+
+/*
+---
+MAX-WIDTH MEDIA QUERIES
+---
+*/
+@media (max-width: 84.375em) {
+	/*slightly less padding on smaller screens. prevents h2 from becoming more than 1 line*/
+	[class*='col-'] {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
