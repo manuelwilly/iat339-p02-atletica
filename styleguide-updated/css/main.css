@@ -484,10 +484,9 @@ nav img.logo:focus {
 .product-thumbnail {
   width: 30rem;
   display: inline-block;
-  padding: 0.6rem;
+  padding: 1rem;
   margin-bottom: 1.6rem;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  margin-right: 1rem;
 }
 
 .product-thumbnail img {
@@ -511,13 +510,14 @@ nav img.logo:focus {
 .product-thumbnail p {
   text-align: center;
   margin-top: .5rem;
+  margin-bottom: 1.4rem;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   font-size: .9rem;
 }
 
 .product-thumbnail:hover {
-  opacity: 0.8;
+  outline: 1px solid #333;
 }
 
 /* Styling for: grid */
@@ -531,7 +531,7 @@ nav img.logo:focus {
   margin-bottom: 0.6rem;
   margin-right: 0.7rem;
   background-color: #f0f0f0;
-  border: solid 1px black;
+  border: solid 1px #333;
 }
 
 /* Styling for: color palette */
