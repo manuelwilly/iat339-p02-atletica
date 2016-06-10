@@ -72,10 +72,14 @@
           <p>.input-text-field</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;input class="input-text-field" type="text" name="name"&gt;</code>
+          <code>&lt;input id="form-name" class="input-text-field" type="text"&gt;</code>
+          <code>&lt;input id="form-email" class="input-text-field" type="text"&gt;</code>
 
           <h3>Rendered element:</h3>
-          <input class="input-text-field" type="text" name="name" placeholder="Search">
+          <label for="form-name">Name</label>
+          <input id="form-name" class="input-text-field" type="text" placeholder="Your name here">
+          <label for="form-email">Email</label>
+          <input id="form-email" class="input-text-field" type="text" placeholder="Your email here">
         </div>
       </div>
 
@@ -122,11 +126,13 @@
               <p>.dropdown</p>
             <h3>Sample code:</h3>
             <code>
-            &lt;ul class="dropdown"&gt;<br>
-              <span class="indent"> </span>&lt;option class="dropdown-text"&gt;Select size&lt;/option&gt;<br>
-              <span class="indent"> </span>&lt;option value="8"&gt;&lt;/option&gt;<br>
-              <span class="indent"> </span>&lt;option value="8.5"&gt;&lt;/option&gt;<br>
-              <span class="indent"> </span>&lt;option value="9"&gt;&lt;/option&gt;<br>
+            &lt;div class="dropdown"&gt;<br>
+              <span class="indent"> </span>&lt;select&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option class="dropdown-text"&gt;Select size&lt;/option&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option value="8"&gt;&lt;/option&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option value="8.5"&gt;&lt;/option&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option value="9"&gt;&lt;/option&gt;<br>
+              <span class="indent"> </span>&lt;/select&gt;<br>
             &lt;/ul&gt;
             </code>
 
@@ -346,30 +352,7 @@
       </div>
 
       <div class="col-12of12">
-        <div class="combined-element">
-          <h2>Subscription Form</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.email-subscription</p>
-
-          <h3>Sample code:</h3>
-          <code>
-          &lt;div class="email-subscription"&gt;<br>
-            <span class="indent"></span>&lt;input class="input-text-field" type="text" name="name"&gt;<br>
-            <span class="indent"></span>&lt;a class="button-style" href="#"&gt;Subscribe&lt;/a&gt;<br>
-          &lt;/div&gt;
-          </code>
-
-          <h3>Rendered element:</h3>
-          <div class="email-subscription">
-            <input class="input-text-field" type="text" name="name" placeholder="Email address">
-            <a class="button-style" href="#">Subscribe</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12of12">
-        <div class="combined-element2">
+        <div class="combined-element3">
           <h2>DEFAULT GRID STYLE</h2>
           <h3>CSS selector:</h3>
             <p>.col-header</p>

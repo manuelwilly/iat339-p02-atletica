@@ -216,8 +216,8 @@ footer {
 .button-style-full-width-header:hover,
 .button-style-full-width-header:active,
 .button-style-full-width-header:focus {
-  background: #0577cc;
-  border-color: #0577cc;
+  background: #036ea9;
+  border-color: #036ea9;
 }
 
 /* Styling for: full-width default/header button */
@@ -249,6 +249,28 @@ footer {
 }
 
 /* Styling for: text input */
+label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+input[type="text"],
+textarea,
+select,
+select option {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  border: solid 1px #333;
+  width: 100%;
+  resize: none;
+}
+
 .input-text-field {
   font-size: 1rem;
   padding: 0.9rem;
@@ -495,21 +517,7 @@ nav img.logo:focus {
 }
 
 .product-thumbnail:hover {
-  border-color: #8f8f8f;
-  border-width: 0.1rem;
-  border-style: solid;
-  padding-bottom: 2.4rem;
-}
-
-/* Styling for: email subscription form */
-.email-subscription .input-text-field,
-.email-subscription .button-style {
-  margin: 0;
-  float: left;
-}
-
-.email-subscription .input-text-field {
-  width: 18rem;
+  opacity: 0.8;
 }
 
 /* Styling for: grid */
