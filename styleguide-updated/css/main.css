@@ -255,7 +255,7 @@ label {
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 input[type="text"],
@@ -265,18 +265,18 @@ select option {
   display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
   border: solid 1px #333;
   width: 100%;
   resize: none;
 }
 
-.input-text-field {
+.input-text-field, .textarea-text-field {
   font-size: 1rem;
   padding: 0.9rem;
 }
 
-.input-text-field:focus {
+.input-text-field:focus, .textarea-text-field:focus {
   border-color: #000;
   border: 0.1rem;
   border-bottom: 0.2rem;
