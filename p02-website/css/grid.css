@@ -72,9 +72,11 @@ MAX-WIDTH MEDIA QUERIES
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+}
 
+@media (max-width: 82em) {
 	.product-thumbnail {
-		width: 19rem;
+		width: 14rem;
 	}
 }
 
