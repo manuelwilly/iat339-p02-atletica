@@ -30,6 +30,13 @@ a {
   color: #333;
 }
 
+li{
+  padding:0.2em 0 0.2em 0;
+}
+ul{
+  margin:0;
+}
+
 /*========================
      NAVIGATION MENU
 ========================*/
@@ -881,9 +888,24 @@ p {
 .product-thumbnail:hover {
   outline: 1px solid #333;
 }
+
+
+
+
+/* Utility Classes */
 .noOutline:hover {
   outline: 0px !important;
 }
+ul.noListStyle{
+  list-style-type:none;
+  padding:0;
+}
+
+
+
+
+
+
 /*
   MEDIA QUERIES
 */
