@@ -881,8 +881,8 @@ p {
 .product-thumbnail:hover {
   outline: 1px solid #333;
 }
-.product-thumbnail.noOutline:hover {
-  outline: 0px;
+.noOutline:hover {
+  outline: 0px !important;
 }
 /*
   MEDIA QUERIES
