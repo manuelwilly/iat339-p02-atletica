@@ -695,6 +695,8 @@ select option {
   border: solid 1px #333;
   width: 100%;
   resize: none;
+  font-size:1rem;
+  padding:0.3rem;
 }
 
 .input-text-field, .textarea-text-field {
