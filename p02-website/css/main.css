@@ -326,14 +326,14 @@ footer p a {
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-latestreleases {
+.board-findplayer, .board-aboutus, .board-news, .board-latestreleases {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.board-findplayer:hover, .board-aboutus:hover, .board-latestreleases:hover {
+.board-findplayer:hover, .board-aboutus:hover, .board-news:hover, .board-latestreleases:hover {
   outline: 3px solid #333;
 }
 
@@ -346,6 +346,11 @@ footer p a {
 }
 
 .board-aboutus {
+  margin-top: 2rem;
+  height: 18rem;
+}
+
+.board-news {
   margin-top: 2rem;
   height: 18rem;
 }
@@ -628,8 +633,6 @@ p.submitted-by {
   margin-top: 0.5rem;
 }
 
-
-
 /*=============================
       LATEST RELEASES PAGE
 =============================*/
@@ -644,6 +647,7 @@ p.submitted-by {
 
 .latest-info {
   background: #e6e6e6;
+  margin-top: 2rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
