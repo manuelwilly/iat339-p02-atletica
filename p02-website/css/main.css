@@ -326,7 +326,7 @@ footer p a {
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-news, .board-latestreleases {
+.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board{
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
@@ -845,6 +845,13 @@ h3 {
   font-weight: 600;
 }
 
+h3.larger{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size:1.6em;
+  margin:0;
+}
+
 p {
   font-size: .9rem;
   line-height: 160%;
@@ -916,9 +923,17 @@ ul.noListStyle{
 .noMargins{
   margin:0 !important;
 }
-
-
-
+.mt06e{
+  margin-top:0.6em;
+}
+.horizontalLine{
+  height:1px;
+  margin:1em 0 1em 0;
+  background:#333;
+}
+.w100{
+  width:100%;
+}
 
 
 /*
