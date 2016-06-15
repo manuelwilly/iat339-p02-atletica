@@ -30,6 +30,15 @@ a {
   color: #333;
 }
 
+li{
+  padding:0.2em 0 0.2em 0;
+}
+ul{
+  margin:0;
+}
+button{
+  cursor:pointer;
+}
 /*========================
      NAVIGATION MENU
 ========================*/
@@ -624,6 +633,8 @@ p.submitted-by {
   margin-top: 0.5rem;
 }
 
+
+
 /*=============================
       LATEST RELEASES PAGE
 =============================*/
@@ -679,10 +690,13 @@ select option {
   display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
+  margin-top:1em;
   border: solid 1px #333;
   width: 100%;
   resize: none;
+  font-size:1rem;
+  padding:0.3rem;
 }
 
 .input-text-field, .textarea-text-field {
@@ -881,9 +895,33 @@ p {
 .product-thumbnail:hover {
   outline: 1px solid #333;
 }
+
+
+
+
+/* Utility Classes */
+.main-section{
+  height: auto;
+  width: 80%;
+  padding-top:0rem !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 .noOutline:hover {
   outline: 0px !important;
 }
+ul.noListStyle{
+  list-style-type:none;
+  padding:0;
+}
+.noMargins{
+  margin:0 !important;
+}
+
+
+
+
+
 /*
   MEDIA QUERIES
 */
