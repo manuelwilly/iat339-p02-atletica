@@ -145,7 +145,7 @@ header {
 }
 
 #company-banner {
-  background-image: url("../img/bg-banner.png");
+  background-image: url("../img/homepage-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -193,7 +193,7 @@ header {
 
 /* Styling for: company banner in other page */
 .hero-banner {
-  background-image: url("../img/bg-banner.png");
+  background-image: url("../img/bg-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -326,14 +326,14 @@ footer p a {
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-latestreleases, .board-news {
+.board-findplayer, .board-aboutus, .board-latestreleases {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.board-findplayer:hover, .board-aboutus:hover, .board-latestreleases:hover, .board-news:hover {
+.board-findplayer:hover, .board-aboutus:hover, .board-latestreleases:hover {
   outline: 3px solid #333;
 }
 
@@ -346,11 +346,6 @@ footer p a {
 }
 
 .board-aboutus {
-  margin-top: 2rem;
-  height: 18rem;
-}
-
-.board-news {
   margin-top: 2rem;
   height: 18rem;
 }

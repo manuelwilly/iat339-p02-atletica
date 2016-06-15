@@ -146,7 +146,7 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 2rem;
 	}
 
-	.breadcrumb, #feature-board, #league-board, #team-board, #player-section, #product-section, #latest-section {
+	.breadcrumb, .main-section, #feature-board, #league-board, #team-board, #player-section, #product-section, #latest-section {
 		width: 95%;
 	}
 
