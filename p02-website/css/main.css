@@ -326,13 +326,18 @@ footer p a {
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board{
+.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board, .board-lightGray{
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
-
+.board-lightGray{
+  background:#f1f1f1;
+}
+.board-bg-color{
+  background:#e6e6e6;
+}
 .board-findplayer:hover, .board-aboutus:hover, .board-news:hover, .board-latestreleases:hover {
   outline: 3px solid #333;
 }
@@ -858,6 +863,10 @@ p {
   letter-spacing: 0.02rem;
 }
 
+p.larger{
+  font-size:1.2em;
+}
+
 /*==========================
       COMBINED ELEMENTS
 ==========================*/
@@ -926,6 +935,18 @@ ul.noListStyle{
 .mt06e{
   margin-top:0.6em;
 }
+.mt1e{
+  margin-top:1em;
+}
+.mt2e{
+  margin-top:2em;
+}
+.mt4e{
+  margin-top:6em;
+}
+.pb2e{
+  padding-bottom:2em;
+}
 .horizontalLine{
   height:1px;
   margin:1em 0 1em 0;
@@ -934,7 +955,16 @@ ul.noListStyle{
 .w100{
   width:100%;
 }
-
+.stripTextDecoration{
+  text-decoration:none;
+  border:0;
+}
+.dBlock{
+  display:block;
+}
+.cb{
+  clear:both;
+}
 
 /*
   MEDIA QUERIES
