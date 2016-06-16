@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Purchase - Atletica</title>
+    <title>Review Purchase - Atletica</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
@@ -30,19 +30,20 @@
       </nav>
 
       <div class="hero-banner">
-        <h1>Purchase</h1>
+        <h1>Review Purchase</h1>
       </div>
     </header>
 
     <div class="col-12of12">
       <ul class="breadcrumb">
-        <li>Purchase</li>
+        <li><a class="text-link" href="purchase.html">Purchase</a></li>
+        <li>Review Purchase</li>
       </ul>
     </div>
 
 
 
-    <!-- PURCHASE SECTION // -->
+    <!-- REVIEW PURCHASE SECTION // -->
     <section class="main-section grid board-bg-color wo-padding">
       <div class="col-4of12">
         <div class="summary-purchase">
@@ -59,51 +60,62 @@
         </div>
       </div>
 
-      <form id="purchase-form">
-        <div class="col-8of12">
-          <div class="board-lightGray noOutline">
+      <div class="col-8of12">
+        <div class="board-lightGray noOutline">
+          <div class="col-12of12">
             <div class="col-12of12">
-              <div class="col-12of12">
-                <h2>Contact Details</h2>
-              </div>
+              <h2>Contact Details</h2>
+            </div>
 
-              <div class="col-6of12">
-                <label for="form-name">First Name</label>
-                <input id="form-name" class="input-text-field" type="text">
-                <label for="form-lastname">Last Name</label>
-                <input id="form-lastname" class="input-text-field" type="text">
-                <label for="form-email">Email</label>
-                <input id="form-email" class="input-text-field" type="text">
+            <div class="col-6of12">
+              <div class="contact-details">
+                <h3>First Name</h3>
+                <p class="larger">Ryan</p>
+                <h3>Last Name</h3>
+                <p class="larger">Giggs</p>
+                <h3>Email</h3>
+                <p class="larger">rgiggs@email.com</p>
               </div>
             </div>
 
-            <div class="col-12of12">
-              <div class="col-12of12">
-                <h2 class="mt2e">Payment Info</h2>
-              </div>
-              <div class="col-6of12">
-                
-                <label for="form-cardnumber">Card Number</label>
-                <input id="form-cardnumber" class="input-text-field" type="text">
-                <label for="form-cvv">CVV</label>
-                <input id="form-cvv" class="input-text-field" type="text">
-                <label for="form-cardname">Name on Card</label>
-                <input id="form-cardname" class="input-text-field" type="text">
-                <label for="form-expirydate">Expiry Date</label>
-                <input id="form-expirydate" type="number" name="cardExpiryMonth" min="1" max="12"> / <input type="number" name="cardExpiryYear" min="16" max="30">
-              </div>
+            <div class="col-6of12">
+              <a href="purchase.html" class="text-link edit-option">Edit</a>
             </div>
-            
-            <a class="button-style-header" href="purchase-review.html">Continue</a>
           </div>
 
+
+          <div class="col-12of12">
+            <div class="col-12of12">
+              <h2 class="mt2e">Payment Info</h2>
+            </div>
+
+            <div class="col-6of12">
+              <div class="payment-info">
+                <h3>Card Number</h3>
+                <p class="larger">123********9</p>
+                <h3>CVV</h3>
+                <p class="larger">1**</p>
+                <h3>Name on Card</h3>
+                <p class="larger">Ryan Giggs</p>
+                <h3>Expiry Date</h3>
+                <p class="larger">12/18</p>
+              </div>
+            </div>
+
+            <div class="col-6of12">
+              <a href="purchase.html" class="text-link edit-option">Edit</a>
+            </div>
+          </div>
+          
+          <a class="button-style-header" href="thank-you.html">Complete Payment</a>
         </div>
-      </form>
+
+      </div>
 
       <div class="clear"></div>
 
     </section>
-    <!-- // PURCHASE SECTION -->
+    <!-- // REVIEW PURCHASE SECTION -->
 
     <div class="footer-spacing"> </div>
 

@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Purchase - Atletica</title>
+    <title>My Cart - Atletica</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
@@ -30,19 +30,12 @@
       </nav>
 
       <div class="hero-banner">
-        <h1>Purchase</h1>
+        <h1>Shopping Cart</h1>
       </div>
     </header>
 
-    <div class="col-12of12">
-      <ul class="breadcrumb">
-        <li>Purchase</li>
-      </ul>
-    </div>
 
-
-
-    <!-- PURCHASE SECTION // -->
+    <!-- MY CART SECTION // -->
     <section class="main-section grid board-bg-color wo-padding">
       <div class="col-4of12">
         <div class="summary-purchase">
@@ -61,49 +54,45 @@
 
       <form id="purchase-form">
         <div class="col-8of12">
-          <div class="board-lightGray noOutline">
+          <div class="board-lightGray">
             <div class="col-12of12">
               <div class="col-12of12">
-                <h2>Contact Details</h2>
+                <h2 class="stripTextDecoration">Your Cart</h2>
+              </div>
+
+              <div class="col-4of12">
+                <div class="product-cart">
+                  <img src="img/product.jpg" alt="football boots product">
+                </div>
               </div>
 
               <div class="col-6of12">
-                <label for="form-name">First Name</label>
-                <input id="form-name" class="input-text-field" type="text">
-                <label for="form-lastname">Last Name</label>
-                <input id="form-lastname" class="input-text-field" type="text">
-                <label for="form-email">Email</label>
-                <input id="form-email" class="input-text-field" type="text">
-              </div>
-            </div>
+                <div class="product-cart-info">
+                  <h3>Product Title</h3>
+                  <p class="product-cart-price">149.99</p>
+                  <p>Type: Football boots</p>
+                  <p>Size: 9</p>
+                  <p>Quantity: 1</p>
 
-            <div class="col-12of12">
-              <div class="col-12of12">
-                <h2 class="mt2e">Payment Info</h2>
-              </div>
-              <div class="col-6of12">
-                
-                <label for="form-cardnumber">Card Number</label>
-                <input id="form-cardnumber" class="input-text-field" type="text">
-                <label for="form-cvv">CVV</label>
-                <input id="form-cvv" class="input-text-field" type="text">
-                <label for="form-cardname">Name on Card</label>
-                <input id="form-cardname" class="input-text-field" type="text">
-                <label for="form-expirydate">Expiry Date</label>
-                <input id="form-expirydate" type="number" name="cardExpiryMonth" min="1" max="12"> / <input type="number" name="cardExpiryYear" min="16" max="30">
+                  <div class="edit-option">
+                    <a href="product-details.html" class="text-link">Edit</a>
+                    <a href="product-details.html" class="text-link">| Remove</a>
+                  </div>
+
+                </div>
               </div>
             </div>
             
-            <a class="button-style-header" href="purchase-review.html">Continue</a>
+            <div class="clear"></div>
+            <a class="button-style-header" href="purchase.html">Checkout</a>
           </div>
 
         </div>
       </form>
-
       <div class="clear"></div>
 
     </section>
-    <!-- // PURCHASE SECTION -->
+    <!-- // MY CART SECTION -->
 
     <div class="footer-spacing"> </div>
 
