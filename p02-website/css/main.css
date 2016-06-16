@@ -687,7 +687,7 @@ label {
   margin-bottom: 0.8rem;
 }
 
-input[type="text"],
+input[type="text"],input[type="number"],
 textarea,
 select,
 select option {
@@ -695,12 +695,16 @@ select option {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   margin-bottom: 2rem;
-  margin-top:1em;
+  margin-top:0.7em;
   border: solid 1px #333;
   width: 100%;
   resize: none;
   font-size:1rem;
   padding:0.3rem;
+}
+input[type="number"]{
+  width:auto;
+  display:inline;
 }
 
 .input-text-field, .textarea-text-field {
