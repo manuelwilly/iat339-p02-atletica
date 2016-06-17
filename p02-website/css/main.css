@@ -473,6 +473,10 @@ footer p a {
   left: 0;
 }
 
+.mancity-container a {
+  font-size: 0.9rem;
+}
+
 .manutd-container {
   left: 100%;
 }
@@ -1001,7 +1005,7 @@ p.larger{
 .product-thumbnail {
   width: auto;
   display: inline-block;
-  padding: 1rem;
+  padding: 0.6rem;
   margin-bottom: 1.6rem;
   margin-right: 1rem;
 }

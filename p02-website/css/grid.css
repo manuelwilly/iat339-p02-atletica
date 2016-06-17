@@ -149,7 +149,7 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	.breadcrumb, .main-section, #feature-board, #league-board, #team-board, #player-section, #product-section, #latest-section {
-		width: 95%;
+		width: 98%;
 	}
 
 	.board-league2 {
@@ -210,5 +210,9 @@ MAX-WIDTH MEDIA QUERIES
 
 	.content-container {
 		height: 44rem;
+	}
+
+	.board-aboutus {
+	 	height: 26rem;
 	}
 }
