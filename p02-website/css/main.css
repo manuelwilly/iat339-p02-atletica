@@ -97,14 +97,14 @@ nav .home-link {
 }
 
 /*the logo link in nav bar*/
-nav .logo-link {
+nav a.logo-link {
   float: left;
   margin-left: 0;
 }
 
 /*remove underline from logo link*/
-nav .logo-link:hover {
-  border: none;
+nav .logo-link:hover,nav .logo-link:active,nav .logo-link:focus {
+  border: 0;
 }
 
 /*the hamburger menu button*/
