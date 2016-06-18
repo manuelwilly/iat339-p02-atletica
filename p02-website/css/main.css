@@ -679,6 +679,9 @@ p.submitted-by {
 
 .latest-info {
   background: #e6e6e6;
+  background-image:url(../img/latest-hero2.jpg);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
   margin-top: 2rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
@@ -1093,6 +1096,17 @@ ul.noListStyle {
 /*
   MEDIA QUERIES
 */
+
+
+/* Responsive for slightly smaller screens */
+@media (max-width: 84em) {
+  .latest-info{
+    background-size:auto 100%;
+    background-position:left;
+  }
+}
+
+
 
 /* Responsive nav bar */
 @media(max-width: 58em) {
