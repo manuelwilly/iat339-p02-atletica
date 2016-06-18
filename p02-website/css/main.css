@@ -142,6 +142,18 @@ nav img.logo:focus {
   opacity: .8;
 }
 
+
+nav #searchBar{
+  width:14em;
+  float:right;
+}
+nav #searchBar #searchString input{
+  font-size:0.8em;
+  margin:-0.1em 0 0 0;
+  border:1px solid #aaa;
+  padding:0.6em;
+}
+
 /* Styling for: company banner in home page */
 header {
   text-align: center;
