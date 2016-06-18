@@ -76,12 +76,6 @@ MAX-WIDTH MEDIA QUERIES
 	}
 }
 
-@media (max-width: 82em) {
-	.product-thumbnail {
-		width: 14rem;
-	}
-}
-
 @media (max-width: 72em) {
 	.col-3of12 {
 		width: 50%;
@@ -110,10 +104,6 @@ MAX-WIDTH MEDIA QUERIES
 		margin-top: 2rem;
 	}
 
-	.product-thumbnail {
-		width: 24rem;
-	}
-
 	/*collapse product content into a single column faster*/
 	.product-info .col-6of12 {
 		width: 100%;
@@ -121,12 +111,6 @@ MAX-WIDTH MEDIA QUERIES
 
 	.product-review {
 		margin-top: 6.4rem;
-	}
-}
-
-@media (max-width: 62em) {
-	.product-thumbnail {
-		width: 20rem;
 	}
 }
 

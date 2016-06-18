@@ -132,8 +132,6 @@ nav img.logo {
   width: 40px;
   height: auto;
   margin-top: -0.6rem;
-  -webkit-transition: opacity 0.1s;
-  transition: opacity 0.1s;
 }
 
 nav img.logo:hover,
@@ -652,6 +650,10 @@ footer p a:not(:first-child){
   margin-bottom: 0.8rem;
 }
 
+.product-review p {
+  margin-bottom: 0.6rem;
+}
+
 .review-form {
   margin-top: 2.6rem;
 }
@@ -1011,7 +1013,7 @@ p.larger{
 .product-thumbnail {
   width: auto;
   display: inline-block;
-  padding: 0.6rem;
+  padding: 0.4rem;
   margin-bottom: 1.6rem;
   margin-right: 1rem;
 }
