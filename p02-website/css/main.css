@@ -140,16 +140,36 @@ nav img.logo:focus {
   opacity: .8;
 }
 
-
+/* Persistent Search Bar */
 nav #searchBar{
-  width:14em;
+  width:18em;
   float:right;
+  border:1px solid #aaa;
+}
+nav #searchBar #searchString{
+  width:85%;
+  float:left;
 }
 nav #searchBar #searchString input{
   font-size:0.8em;
-  margin:-0.1em 0 0 0;
-  border:1px solid #aaa;
+  margin:0 0 0 0;
+  border:0;
   padding:0.6em;
+  border-right:1px solid #aaa;
+  width:100%;
+}
+nav #searchBar a#searchBtn{
+  float:left;
+  width:15%;
+  font-size:1.1em;
+  color:#666;
+  padding-top:0.15em;
+  display:block;
+  margin:0;
+}
+nav #searchBar a#searchBtn:hover,nav #searchBar a#searchBtn:active,nav #searchBar a#searchBtn:focus {
+  border:0;
+  color:#0286ce;
 }
 
 /* Styling for: company banner in home page */
