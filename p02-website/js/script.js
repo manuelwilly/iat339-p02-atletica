@@ -26,10 +26,13 @@ $(document).ready(function(){
 		}
 		
 	});
-	$('input[name="searchString"]').on('focusout',function(){
+	$(window).click(function() {
 		$('#predictiveSearchResults').css('display','none');
 	});
 
+	$('#predictiveSearchResults').click(function(event){
+	    event.stopPropagation();
+	});
 
 
 });

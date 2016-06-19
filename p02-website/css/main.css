@@ -203,6 +203,7 @@ nav #searchBar #predictiveSearchResults ul li a{
 }
 nav #searchBar #predictiveSearchResults ul li a:hover,nav #searchBar #predictiveSearchResults ul li a:active,nav #searchBar #predictiveSearchResults ul li a:focus{
   border:0;
+
 }
 nav #searchBar #predictiveSearchResults ul li *{
   float:left;
