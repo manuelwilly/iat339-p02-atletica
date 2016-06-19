@@ -18,4 +18,19 @@ $(document).ready(function(){
 	$('.comment-form').find('.button-default').click( function() { 
 		$(this).parents('.comment-form').slideUp();
 	});
+
+	$('input[name="searchString"]').on('input',function(){
+		$('#predictiveSearchResults').css('display','block');
+		if($('input[name="searchString"]').val().length == 0){
+			$('#predictiveSearchResults').css('display','none');
+		}
+		
+	});
+	$('input[name="searchString"]').on('focusout',function(){
+		$('#predictiveSearchResults').css('display','none');
+	});
+
+
+
 });
+

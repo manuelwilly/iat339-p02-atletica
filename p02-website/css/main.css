@@ -145,6 +145,11 @@ nav #searchBar{
   width:18em;
   float:right;
   border:1px solid #aaa;
+  position:relative;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  margin-top:-0.05em;
 }
 nav #searchBar #searchString{
   width:85%;
@@ -154,7 +159,7 @@ nav #searchBar #searchString input{
   font-size:0.8em;
   margin:0 0 0 0;
   border:0;
-  padding:0.6em;
+  padding:0.5em;
   border-right:1px solid #aaa;
   width:100%;
 }
@@ -163,7 +168,7 @@ nav #searchBar a#searchBtn{
   width:15%;
   font-size:1.1em;
   color:#666;
-  padding-top:0.15em;
+  padding:0.2em 0 0.2em 0;
   display:block;
   margin:0;
 }
@@ -171,6 +176,44 @@ nav #searchBar a#searchBtn:hover,nav #searchBar a#searchBtn:active,nav #searchBa
   border:0;
   color:#0286ce;
 }
+nav #searchBar #predictiveSearchResults{
+  position:absolute;
+  bottom:0;
+  left:-1px;
+  right:-1px;
+  display:none;
+}
+nav #searchBar #predictiveSearchResults ul{
+  position:absolute;
+  top:0;
+  width:100%;
+  border:1px solid #ddd;
+  border-bottom:0;
+}
+nav #searchBar #predictiveSearchResults ul li{
+  background:#fff;
+  display:block;
+  clear:both;
+  padding:0;
+  width:100%;
+  border-bottom:1px solid #ddd;
+}
+nav #searchBar #predictiveSearchResults ul li a{
+  margin:0;
+}
+nav #searchBar #predictiveSearchResults ul li a:hover,nav #searchBar #predictiveSearchResults ul li a:active,nav #searchBar #predictiveSearchResults ul li a:focus{
+  border:0;
+}
+nav #searchBar #predictiveSearchResults ul li *{
+  float:left;
+}
+nav #searchBar #predictiveSearchResults ul li h3,nav #searchBar #predictiveSearchResults ul li p{
+  font-size:0.9em;
+  padding:0.3em 0 0.2em 0.3em;
+  margin:0;
+  text-align:left;
+}
+
 
 /* Styling for: company banner in home page */
 header {
@@ -1125,6 +1168,9 @@ ul.noListStyle {
 
 .dBlock {
   display: block;
+}
+.w100{
+  width:100%;
 }
 
 /*
