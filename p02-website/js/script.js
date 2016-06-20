@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	// toggle the nav
 	$('.menu-icon').click( function() { 
-		$('.menu').toggleClass('not-hidden');
+		$('.menu,#searchBar').toggleClass('not-hidden');
 	});
 
 	// if you click the comment link in the blog

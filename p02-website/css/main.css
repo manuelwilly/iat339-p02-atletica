@@ -7,6 +7,10 @@
   STYLE GUIDE STYLING
 */
 
+input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
+  -webkit-appearance: none; -moz-appearance: none;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1228,8 +1232,30 @@ ul.noListStyle {
     background: #fff;
   }
 
-  nav #predictiveSearchResults ul {
+  nav #searchBar{
+    width:100%;
+    display:none;
+  }
+  nav #searchBar.not-hidden{
     display:block;
+  }
+  nav #searchBar #searchString input{
+    font-size:1em;
+    text-align:center;
+    width:100%;
+    border-right:0;
+  }
+  nav #searchBar #searchString{
+    width:100%;
+    text-align:center;
+  }
+  nav #searchBar a#searchBtn{
+    display:none;
+
+  }
+
+  nav #predictiveSearchResults ul {
+    display:none;
   }
 
   nav ul li { 
@@ -1268,6 +1294,12 @@ ul.noListStyle {
   nav a.logo-link:focus {
     border-bottom: none;
     background: none;
+  }
+
+
+  /* Checkout Page */
+  input[name='cardExpiryMonth'], input[name='cardExpiryYear']{
+    width:5em;
   }
 
 }
