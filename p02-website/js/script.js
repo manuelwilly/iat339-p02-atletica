@@ -19,6 +19,8 @@ $(document).ready(function(){
 		$(this).parents('.comment-form').slideUp();
 	});
 
+
+// Predictive Search
 	$('input[name="searchString"]').on('input',function(){
 		$('#predictiveSearchResults').css('display','block');
 		if($('input[name="searchString"]').val().length == 0){

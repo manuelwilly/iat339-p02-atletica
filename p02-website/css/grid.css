@@ -85,6 +85,10 @@ MAX-WIDTH MEDIA QUERIES
 		width: 50%;
 	}
 
+	#predictiveSearchResults .col-3of12 {
+		width: 25%;
+	}
+
 	.col-8of12 {
 		width: 100%;
 	}

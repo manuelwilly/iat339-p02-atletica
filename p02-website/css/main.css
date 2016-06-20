@@ -1224,6 +1224,10 @@ ul.noListStyle {
     background: #fff;
   }
 
+  nav #predictiveSearchResults ul {
+    display:block;
+  }
+
   nav ul li { 
     display: block;
     float: none;
@@ -1245,6 +1249,14 @@ ul.noListStyle {
     border-bottom: none;
     background: #0286ce;
     color: #fff;
+  }
+
+
+  nav #searchBar a:hover,
+  nav #searchBar a:active,
+  nav #searchBar a:focus {
+      color: #0286ce;
+      background:#fff;
   }
 
   nav a.logo-link:hover,
