@@ -685,6 +685,10 @@ footer p a:not(:first-child){
   margin-left: 1rem;
 }
 
+.product-description h2 {
+  margin-top:0;
+}
+
 .dropdown h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
