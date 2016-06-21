@@ -50,6 +50,9 @@
 }
 
 
+.hide-lg{
+	display:none;
+}
 
 /*
 ---
@@ -77,6 +80,14 @@ MAX-WIDTH MEDIA QUERIES
 }
 
 @media (max-width: 72em) {
+	.hide-md{
+		display:none;
+	}
+
+	.visible-md{
+		display:initial;
+	}
+
 	.col-3of12 {
 		width: 50%;
 	}
