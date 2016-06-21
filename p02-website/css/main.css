@@ -1251,6 +1251,8 @@ ul.noListStyle {
   nav #searchBar{
     width:100%;
     display:none;
+    margin-bottom:0.4em;
+
   }
   nav #searchBar.not-hidden{
     display:block;
