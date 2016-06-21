@@ -410,7 +410,7 @@ footer p a:not(:first-child){
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board, .board-lightGray {
+.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board, .board-lightGray,.board-standard {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
@@ -438,12 +438,26 @@ footer p a:not(:first-child){
   height: 28rem;
 }
 
-.board-aboutus {
+.board-aboutus{
   margin-top: 2rem;
   height: 18rem;
+  background-image:url('../img/office.jpg');
+  background-size:cover;
+}
+.board-aboutus *{
+  color:#fff;
+  border-color:#fff;
+}
+.board-aboutus2{
+  background-image:url('../img/about2.jpg');
+  background-size:cover;
+}
+.board-aboutus3{
+  background-image:url('../img/about3.jpg');
+  background-size:cover;
 }
 
-.board-news {
+.board-news,.board-standard {
   margin-top: 2rem;
   height: 18rem;
 }
@@ -1142,7 +1156,9 @@ p.larger{
   margin-left: auto;
   margin-right: auto;
 }
-
+.fl{
+  float:left;
+}
 .noOutline:hover {
   outline: 0px !important;
 }
