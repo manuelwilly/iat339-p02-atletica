@@ -215,6 +215,14 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	.board-aboutus {
-	 	height: 26rem;
+	 	height: 32rem;
+	}
+
+	.board-aboutus-home {
+	 	height: 21rem;
+	}
+
+	.board-news, .board-standard {
+	 	height: 21rem;
 	}
 }

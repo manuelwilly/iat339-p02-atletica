@@ -34,10 +34,6 @@ a {
   color: #333;
 }
 
-a.blue {
-  color: #0286ce;
-}
-
 li {
   padding: 0.2em 0 0.2em 0;
 }
@@ -456,8 +452,9 @@ footer p a {
   font-size: .6rem;
   font-weight: 600;
 }
+
 footer p a:not(:first-child){
-  margin-left:1em;
+  margin-left: 1em;
 }
 
 /*==========================
@@ -1265,9 +1262,7 @@ input[type="number"]{
 .product-thumbnail {
   width: auto;
   display: inline-block;
-  padding: 0.4rem;
   margin-bottom: 1.6rem;
-  margin-right: 1rem;
 }
 
 .product-thumbnail img {
