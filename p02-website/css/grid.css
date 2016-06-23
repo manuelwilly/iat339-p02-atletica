@@ -49,9 +49,8 @@
 	width: 100%;
 }
 
-
-.hide-lg{
-	display:none;
+.hide-lg {
+	display: none;
 }
 
 /*
@@ -80,12 +79,12 @@ MAX-WIDTH MEDIA QUERIES
 }
 
 @media (max-width: 72em) {
-	.hide-md{
-		display:none;
+	.hide-md {
+		display: none;
 	}
 
-	.visible-md{
-		display:initial;
+	.visible-md {
+		display: initial;
 	}
 
 	.col-3of12 {
@@ -127,6 +126,10 @@ MAX-WIDTH MEDIA QUERIES
 	.product-review {
 		margin-top: 6.4rem;
 	}
+
+	.board-aboutus-profile p {
+		width: 100%;
+	}
 }
 
 @media (max-width: 54em) {
@@ -159,11 +162,11 @@ MAX-WIDTH MEDIA QUERIES
 		height: 40rem;
 	}
 
-	.mancity, .manutd {
+	.mancity, .manutd, .chelsea, .arsenal {
 		width: 100%;
 	}
 
-	.manutd {
+	.manutd, .chelsea, .arsenal {
 		margin-top: 0.2rem;
 	}
 

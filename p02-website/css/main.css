@@ -51,6 +51,70 @@ button {
 }
 
 /*========================
+      TEXT ELEMENTS
+========================*/
+
+#text_elements {
+  padding: 3rem;
+}
+
+#text_elements:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.text-element {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+h2 {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 3px solid #333;
+  font-size: 1.8rem;
+  color: #333;
+  display: inline-block;
+  letter-spacing: .1rem;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+h3.larger {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+p {
+  font-size: .9rem;
+  line-height: 160%;
+  letter-spacing: 0.02rem;
+}
+
+p.larger {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.6rem;
+}
+
+/*========================
      NAVIGATION MENU
 ========================*/
 
@@ -111,7 +175,7 @@ nav a.logo-link {
 }
 
 /*remove underline from logo link*/
-nav .logo-link:hover,nav .logo-link:active,nav .logo-link:focus {
+nav .logo-link:hover, nav .logo-link:active, nav .logo-link:focus {
   border: 0;
 }
 
@@ -148,79 +212,99 @@ nav img.logo:focus {
   opacity: .8;
 }
 
+/*the icon in the my cart menu*/
+.top-menu img {
+  margin-right: 1rem;
+}
+
 /* Persistent Search Bar */
-nav #searchBar{
-  width:18em;
-  float:right;
-  border:1px solid #aaa;
-  position:relative;
+nav #searchBar {
+  width: 18em;
+  float: right;
+  border: 1px solid #aaa;
+  position: relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
-  margin-top:-0.05em;
+  margin-top: -0.05em;
 }
-nav #searchBar #searchString{
-  width:85%;
-  float:left;
-}
-nav #searchBar #searchString input{
-  font-size:0.8em;
-  margin:0 0 0 0;
-  border:0;
-  padding:0.5em;
-  border-right:1px solid #aaa;
-  width:100%;
-}
-nav #searchBar a#searchBtn{
-  float:left;
-  width:15%;
-  font-size:1.1em;
-  color:#666;
-  padding:0.2em 0 0.2em 0;
-  display:block;
-  margin:0;
-}
-nav #searchBar a#searchBtn:hover,nav #searchBar a#searchBtn:active,nav #searchBar a#searchBtn:focus {
-  border:0;
-  color:#0286ce;
-}
-nav #searchBar #predictiveSearchResults{
-  position:absolute;
-  bottom:0;
-  left:-1px;
-  right:-1px;
-  display:none;
-}
-nav #searchBar #predictiveSearchResults ul{
-  position:absolute;
-  top:0;
-  width:100%;
-  border:1px solid #ddd;
-  border-bottom:0;
-}
-nav #searchBar #predictiveSearchResults ul li{
-  background:#fff;
-  display:block;
-  clear:both;
-  padding:0;
-  width:100%;
-  border-bottom:1px solid #ddd;
-}
-nav #searchBar #predictiveSearchResults ul li a{
-  margin:0;
-}
-nav #searchBar #predictiveSearchResults ul li a:hover,nav #searchBar #predictiveSearchResults ul li a:active,nav #searchBar #predictiveSearchResults ul li a:focus{
-  border:0;
 
+nav #searchBar #searchString {
+  width: 85%;
+  float: left;
 }
-nav #searchBar #predictiveSearchResults ul li *{
-  float:left;
+
+nav #searchBar #searchString input {
+  font-size: 0.8em;
+  margin: 0;
+  border: 0;
+  padding:0.5em;
+  border-right: 1px solid #aaa;
+  width: 100%;
 }
-nav #searchBar #predictiveSearchResults ul li h3,nav #searchBar #predictiveSearchResults ul li p{
-  font-size:0.9em;
-  padding:0.3em 0 0.2em 0.3em;
-  margin:0;
-  text-align:left;
+
+nav #searchBar a#searchBtn {
+  float: left;
+  width: 15%;
+  font-size: 1.1em;
+  color: #666;
+  padding: 0.2em 0 0.2em 0;
+  display: block;
+  margin: 0;
+}
+
+nav #searchBar a#searchBtn:hover, 
+nav #searchBar a#searchBtn:active, 
+nav #searchBar a#searchBtn:focus {
+  border: 0;
+  color: #0286ce;
+}
+
+nav #searchBar #predictiveSearchResults {
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  right: -1px;
+  display: none;
+}
+
+nav #searchBar #predictiveSearchResults ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+nav #searchBar #predictiveSearchResults ul li{
+  background: #fff;
+  display: block;
+  clear: both;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+nav #searchBar #predictiveSearchResults ul li a {
+  margin: 0;
+}
+
+nav #searchBar #predictiveSearchResults ul li a:hover, 
+nav #searchBar #predictiveSearchResults ul li a:active,
+nav #searchBar #predictiveSearchResults ul li a:focus {
+  border: 0;
+}
+
+nav #searchBar #predictiveSearchResults ul li * {
+  float: left;
+}
+
+nav #searchBar #predictiveSearchResults ul li h3, 
+nav #searchBar #predictiveSearchResults ul li p {
+  font-size: 0.9em;
+  padding: 0.3em 0 0.2em 0.3em;
+  margin: 0;
+  text-align: left;
 }
 
 
@@ -340,6 +424,7 @@ section p {
 .hidden {
   display: none;
 }
+
 .not-hidden {
   display: block;
 }
@@ -414,12 +499,31 @@ footer p a:not(:first-child){
   margin-right: auto;
 }
 
-.board-findplayer, .board-aboutus, .board-news, .board-latestreleases, .board, .board-lightGray,.board-standard {
+.board, .board-findplayer, .board-aboutus, .board-aboutus-home, 
+.board-news, .board-latestreleases, .board-lightGray, .board-standard {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
+}
+
+.board-findplayer {
+  background-image: url('../img/findplayer.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.board-findplayer h2 {
+  color: #fff;
+  font-weight: 300;
+  border-bottom: 3px solid #fff;
+}
+
+.board-latestreleases {
+  background-image: url('../img/latest-releases.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .board-lightGray {
@@ -430,7 +534,7 @@ footer p a:not(:first-child){
   background: #e6e6e6;
 }
 
-.board-findplayer:hover, .board-aboutus:hover, .board-news:hover, .board-latestreleases:hover {
+.board-findplayer:hover, .board-aboutus-home:hover, .board-latestreleases:hover {
   outline: 3px solid #333;
 }
 
@@ -442,28 +546,90 @@ footer p a:not(:first-child){
   height: 28rem;
 }
 
-.board-aboutus{
+.board-aboutus {
   margin-top: 2rem;
   height: 18rem;
-  background-image:url('../img/office.jpg');
-  background-size:cover;
-}
-.board-aboutus *{
-  color:#fff;
-  border-color:#fff;
-}
-.board-aboutus2{
-  background-image:url('../img/about2.jpg');
-  background-size:cover;
-}
-.board-aboutus3{
-  background-image:url('../img/about3.jpg');
-  background-size:cover;
 }
 
-.board-news,.board-standard {
+.board-aboutus-home {
+  background-image: url('../img/office.jpg');
+  background-size: cover;
+  color: #fff;
   margin-top: 2rem;
   height: 18rem;
+}
+
+.board-aboutus-home h2 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.board-aboutus-profile {
+  background-image: url('../img/office.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.board-aboutus-profile h2 {
+  float: left;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.board-aboutus-mission {
+  background-image: url('../img/about-mission.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.board-aboutus-mission h2 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.board-aboutus-guarantee {
+  background-image: url('../img/about-guarantee.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.board-aboutus-guarantee h2 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.board-aboutus-team {
+  margin-top: 2rem;
+}
+
+.board-aboutus-team p {
+  color: #000;
+}
+
+.board-contactus {
+  margin-top: 2rem;
+}
+
+.board-news, .board-standard {
+  margin-top: 2rem;
+  height: 18rem;
+}
+
+.board-news {
+  background: #0286ce;
+  color: #fff;
+}
+
+.board-news h2 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  margin-bottom: 0;
+}
+
+.board-news h3 {
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.2rem;
 }
 
 .clear {
@@ -529,7 +695,7 @@ footer p a:not(:first-child){
   margin-right: auto;
 }
 
-.mancity, .manutd {
+.mancity, .manutd, .chelsea, .arsenal {
   font-size: .96rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
@@ -546,13 +712,16 @@ footer p a:not(:first-child){
   border-color: #0286ce;
 }
 
-.mancity:hover, .manutd:hover {
+.mancity:hover, .manutd:hover, .chelsea:hover, .arsenal:hover {
   color: white;
   background-color: #0286ce;
   cursor: pointer;
 }
 
-.mancity:focus, .manutd:focus, .mancity:active, .manutd:active {
+.mancity:focus, .manutd:focus, 
+.mancity:active, .manutd:active
+.chelsea:active, .chelsea:active
+.arsenal:active, .arsenal:active {
   background: #0286ce;
 }
 
@@ -561,7 +730,7 @@ footer p a:not(:first-child){
   color: #fff;
 }
 
-.mancity-container, .manutd-container {
+.mancity-container, .manutd-container, .chelsea-container, .arsenal-container {
   width: 100%;
   padding-top: 3em;
   position: absolute;
@@ -576,11 +745,11 @@ footer p a:not(:first-child){
   font-size: 0.9rem;
 }
 
-.manutd-container {
+.manutd-container, .chelsea-container, .arsenal-container {
   left: 100%;
 }
 
-.mancity-title, .manutd-title {
+.mancity-title, .manutd-title, .chelsea-title, .arsenal-title {
   color: #333;
   font-size: 2rem;
   line-height: 1.5;
@@ -592,7 +761,9 @@ footer p a:not(:first-child){
   left: 0;
   position: absolute;
   
-  background: #e6e6e6;
+  background-image: url(../img/mancity-banner.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-manutd {
@@ -601,7 +772,31 @@ footer p a:not(:first-child){
   left: 100%;
   position: absolute;
   
-  background: #e6e6e6;
+  background-image: url(../img/manutd-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-chelsea {
+  height: 30em;
+  width: 100%;
+  left: 100%;
+  position: absolute;
+  
+  background-image: url(../img/chelsea-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-arsenal {
+  height: 30em;
+  width: 100%;
+  left: 100%;
+  position: absolute;
+  
+  background-image: url(../img/arsenal-banner.png);
+  background-position: center;
+  background-size: cover;
 }
 
 /*.board-team {
@@ -648,12 +843,20 @@ footer p a:not(:first-child){
 }
 
 .player-info {
-  background: #e6e6e6;
+  background-image: url(../img/sergio-aguero.jpg);
+  background-position: top;
+  background-size: cover;
   margin-top: 1.3rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   padding-bottom: 24rem;
+  color: #fff;
+}
+
+.player-info h2 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .player-equipment {
@@ -783,8 +986,8 @@ p.submitted-by {
 
 .latest-info {
   background: #e6e6e6;
-  background-image:url(../img/latest-hero2.jpg);
-  background-size:100% 100%;
+  background-image: url(../img/latest-hero2.jpg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 2rem;
   padding-top: 1rem;
@@ -821,6 +1024,13 @@ p.submitted-by {
 h3.summary-cost {
   font-size: 1rem;
   font-weight: 800;
+}
+
+h3.price-tag {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
 }
 
 .product-cart {
@@ -888,12 +1098,16 @@ h3.summary-cost {
 =========================*/
 
 .purchase-complete {
-  background: #e6e6e6;
+  background: #f1f1f1;
   margin-top: 1.3rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   padding-bottom: 24rem;
+}
+
+.promotional-link {
+  margin-top: 0.8rem;
 }
 
 /*=========================
@@ -1043,70 +1257,6 @@ input[type="number"]{
   background-position: 10.2rem;
 }
 
-/*========================
-      TEXT ELEMENTS
-========================*/
-
-#text_elements {
-  padding: 3rem;
-}
-
-#text_elements:after {
-  content:"";
-  display: block;
-  clear: both;
-}
-
-.text-element {
-  margin-bottom: 1rem;
-}
-
-h1 {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 3.6rem;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-}
-
-h2 {
-  font-family: 'Source Sans Pro';
-  font-weight: 600;
-  text-transform: uppercase;
-  border-bottom: 3px solid #333;
-  font-size: 1.8rem;
-  color: #333;
-  display: inline-block;
-  letter-spacing: .1rem;
-  line-height: 2.6rem;
-  text-align: center;
-}
-
-h3 {
-  font-family: 'Open Sans';
-  font-weight: 600;
-}
-
-h3.larger{
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 1.8rem;
-  margin: 0;
-}
-
-p {
-  font-size: .9rem;
-  line-height: 160%;
-  letter-spacing: 0.02rem;
-}
-
-p.larger{
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-bottom: 1.6rem;
-}
-
 /*==========================
       COMBINED ELEMENTS
 ==========================*/
@@ -1160,9 +1310,7 @@ p.larger{
   margin-left: auto;
   margin-right: auto;
 }
-.fl{
-  float:left;
-}
+
 .noOutline:hover {
   outline: 0px !important;
 }
@@ -1198,23 +1346,23 @@ ul.noListStyle {
 .dBlock {
   display: block;
 }
-.w100{
-  width:100%;
+
+.w100 {
+  width: 100%;
 }
+
 
 /*
   MEDIA QUERIES
 */
 
-
 /* Responsive for slightly smaller screens */
 @media (max-width: 84em) {
-  .latest-info{
-    background-size:auto 100%;
-    background-position:left;
+  .latest-info {
+    background-size: auto 100%;
+    background-position: left;
   }
 }
-
 
 
 /* Responsive nav bar */
@@ -1253,31 +1401,34 @@ ul.noListStyle {
   }
 
   nav #searchBar{
-    width:100%;
-    display:none;
-    margin-bottom:0.4em;
+    width: 100%;
+    display: none;
+    margin-bottom: 0.4em;
+  }
 
+  nav #searchBar.not-hidden {
+    display: block;
   }
-  nav #searchBar.not-hidden{
-    display:block;
+
+  nav #searchBar #searchString input {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    border-right: 0;
   }
-  nav #searchBar #searchString input{
-    font-size:1em;
-    text-align:center;
-    width:100%;
-    border-right:0;
+
+  nav #searchBar #searchString {
+    width: 100%;
+    text-align: center;
   }
-  nav #searchBar #searchString{
-    width:100%;
-    text-align:center;
-  }
-  nav #searchBar a#searchBtn{
-    display:none;
+
+  nav #searchBar a#searchBtn {
+    display: none;
 
   }
 
   nav #predictiveSearchResults ul {
-    display:none;
+    display: none;
   }
 
   nav ul li { 
@@ -1303,12 +1454,11 @@ ul.noListStyle {
     color: #fff;
   }
 
-
   nav #searchBar a:hover,
   nav #searchBar a:active,
   nav #searchBar a:focus {
       color: #0286ce;
-      background:#fff;
+      background: #fff;
   }
 
   nav a.logo-link:hover,
@@ -1321,7 +1471,7 @@ ul.noListStyle {
 
   /* Checkout Page */
   input[name='cardExpiryMonth'], input[name='cardExpiryYear']{
-    width:5em;
+    width: 5em;
   }
 
 }
