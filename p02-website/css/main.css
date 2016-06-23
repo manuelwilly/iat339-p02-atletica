@@ -543,6 +543,12 @@ footer p a:not(:first-child){
   height: 28rem;
 }
 
+.board-latestreleases h2 {
+  color: #fff;
+  font-weight: 300;
+  border-bottom: 3px solid #fff;
+}
+
 .board-aboutus {
   margin-top: 2rem;
   height: 18rem;
