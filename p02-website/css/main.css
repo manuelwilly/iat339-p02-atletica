@@ -984,7 +984,7 @@ p.submitted-by {
 .latest-info {
   background: #e6e6e6;
   background-image: url(../img/latest-hero2.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-top: 2rem;
   padding-top: 1rem;
@@ -994,7 +994,7 @@ p.submitted-by {
 }
 
 .latest-product {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 /*===========================
@@ -1105,6 +1105,26 @@ h3.price-tag {
 
 .promotional-link {
   margin-top: 0.8rem;
+}
+
+.promotional-link p {
+  margin-top: 0.2rem;
+}
+
+/*=============================
+      SEARCH RESULTS PAGE
+=============================*/
+
+#search-results-section {
+  height: auto;
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results-for {
+  padding: 0;
 }
 
 /*=========================
@@ -1262,6 +1282,7 @@ input[type="number"]{
 .product-thumbnail {
   width: auto;
   display: inline-block;
+  padding: 0.4rem;
   margin-bottom: 1.6rem;
 }
 

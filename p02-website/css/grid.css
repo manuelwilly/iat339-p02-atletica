@@ -150,7 +150,9 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 2rem;
 	}
 
-	.breadcrumb, .main-section, #feature-board, #league-board, #team-board, #player-section, #product-section, #latest-section {
+	.breadcrumb, .main-section, #feature-board, 
+	#league-board, #team-board, #player-section, 
+	#product-section, #latest-section, #search-results-section {
 		width: 98%;
 	}
 
@@ -211,18 +213,25 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	.content-container {
-		height: 44rem;
+		height: 42rem;
+	}
+
+	/*resize board box height for mobile*/
+	.board-findplayer, .board-latestreleases,
+	.board-aboutus-home, .board-news, .board-standard {
+  		height: 21rem;
 	}
 
 	.board-aboutus {
 	 	height: 32rem;
 	}
 
-	.board-aboutus-home {
-	 	height: 21rem;
+	/*add padding to purchase-complete box in thank-you page*/
+	.purchase-complete {
+	  padding-bottom: 34rem;
 	}
 
-	.board-news, .board-standard {
-	 	height: 21rem;
+	.promotional-link p {
+	  margin-top: 0.4rem;
 	}
 }
