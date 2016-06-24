@@ -80,6 +80,7 @@
 
     <div class="col-12of12">
       <ul class="breadcrumb">
+        <li><a class="text-link" href="my-cart.html">My Cart</a></li>
         <li>Purchase</li>
       </ul>
     </div>
@@ -112,12 +113,14 @@
               </div>
 
               <div class="col-6of12">
-                <label for="form-name">First Name</label>
-                <input id="form-name" class="input-text-field" type="text">
-                <label for="form-lastname">Last Name</label>
-                <input id="form-lastname" class="input-text-field" type="text">
-                <label for="form-email">Email</label>
-                <input id="form-email" class="input-text-field" type="text">
+                <div class="purchase-form-field">
+                  <label for="form-name">First Name</label>
+                  <input id="form-name" class="input-text-field" type="text">
+                  <label for="form-lastname">Last Name</label>
+                  <input id="form-lastname" class="input-text-field" type="text">
+                  <label for="form-email">Email</label>
+                  <input id="form-email" class="input-text-field" type="text">
+                </div>
               </div>
             </div>
 
@@ -125,16 +128,18 @@
               <div class="col-12of12">
                 <h2 class="mt2e">Payment Info</h2>
               </div>
+
               <div class="col-6of12">
-                
-                <label for="form-cardnumber">Card Number</label>
-                <input id="form-cardnumber" class="input-text-field" type="text">
-                <label for="form-cvv">CVV</label>
-                <input id="form-cvv" class="input-text-field" type="text">
-                <label for="form-cardname">Name on Card</label>
-                <input id="form-cardname" class="input-text-field" type="text">
-                <label for="form-expirydate">Expiry Date</label>
-                <input id="form-expirydate" type="number" name="cardExpiryMonth" min="1" max="12"> / <input type="number" name="cardExpiryYear" min="16" max="30">
+                <div class="purchase-form-field">
+                  <label for="form-cardnumber">Card Number</label>
+                  <input id="form-cardnumber" class="input-text-field" type="text">
+                  <label for="form-cvv">CVV (Last 3/4 digit number on the back)</label>
+                  <input id="form-cvv" class="input-text-field" type="text">
+                  <label for="form-cardname">Name on Card</label>
+                  <input id="form-cardname" class="input-text-field" type="text">
+                  <label for="form-expirydate">Expiry Date</label>
+                  <input id="form-expirydate" type="number" name="cardExpiryMonth" min="1" max="12"> / <input type="number" name="cardExpiryYear" min="16" max="30">
+                </div>
               </div>
             </div>
             

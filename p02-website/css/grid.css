@@ -130,6 +130,10 @@ MAX-WIDTH MEDIA QUERIES
 	.board-aboutus-profile p {
 		width: 100%;
 	}
+
+	.content-container {
+		height: 34rem;
+	}
 }
 
 @media (max-width: 54em) {
@@ -150,18 +154,17 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 2rem;
 	}
 
-	.breadcrumb, .main-section, #feature-board, 
-	#league-board, #team-board, #player-section, 
+	.breadcrumb, #feature-board, #league-board, #team-board, #player-section, 
 	#product-section, #latest-section, #search-results-section {
 		width: 98%;
 	}
 
-	.board-league2 {
-		margin-top: 2rem;
+	.main-section {
+		width: 100%;
 	}
 
-	.content-container {
-		height: 40rem;
+	.board-league2 {
+		margin-top: 2rem;
 	}
 
 	.mancity, .manutd, .chelsea, .arsenal {
@@ -212,8 +215,14 @@ MAX-WIDTH MEDIA QUERIES
 		line-height: 1.2;
 	}
 
-	.content-container {
-		height: 42rem;
+	/*shrink team banner size for mobile*/
+	.hero-container {
+		height: 14rem;
+	}
+
+	.hero-mancity, .hero-manutd, 
+	.hero-chelsea, .hero-arsenal {
+		height: 14em;
 	}
 
 	/*resize board box height for mobile*/

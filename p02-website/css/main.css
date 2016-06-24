@@ -313,8 +313,6 @@ header {
   background-image: url("../img/homepage-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -361,8 +359,6 @@ header {
   background-image: url("../img/bg-banner.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -680,7 +676,7 @@ footer p a:not(:first-child){
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 26em;
+  height: 18em;
   margin-top: 1.3rem;
 }
 
@@ -688,8 +684,9 @@ footer p a:not(:first-child){
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 28em;
+  height: 24em;
   line-height: 2;
+  margin-top: 1rem;
 }
 
 .mancity-tabs {
@@ -735,7 +732,6 @@ footer p a:not(:first-child){
 
 .mancity-container, .manutd-container, .chelsea-container, .arsenal-container {
   width: 100%;
-  padding-top: 3em;
   position: absolute;
   overflow: hidden;
 }
@@ -759,7 +755,7 @@ footer p a:not(:first-child){
 }
 
 .hero-mancity {
-  height: 30em;
+  height: 18em;
   width: 100%;
   left: 0;
   position: absolute;
@@ -770,7 +766,7 @@ footer p a:not(:first-child){
 }
 
 .hero-manutd {
-  height: 30em;
+  height: 18em;
   width: 100%;
   left: 100%;
   position: absolute;
@@ -781,7 +777,7 @@ footer p a:not(:first-child){
 }
 
 .hero-chelsea {
-  height: 30em;
+  height: 18em;
   width: 100%;
   left: 100%;
   position: absolute;
@@ -792,7 +788,7 @@ footer p a:not(:first-child){
 }
 
 .hero-arsenal {
-  height: 30em;
+  height: 18em;
   width: 100%;
   left: 100%;
   position: absolute;
@@ -801,37 +797,6 @@ footer p a:not(:first-child){
   background-position: center;
   background-size: cover;
 }
-
-/*.board-team {
-  background: #e6e6e6;
-  padding-top: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 10rem;
-}
-
-.board-player {
-  background: #e6e6e6;
-  padding-top: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 20rem;
-}
-
-#board-teamdetails {
-  width: 8rem;
-  height: 8rem;
-  float: left;
-  display: inline-block;
-  margin-top: 1rem;
-  margin-right: 2rem;
-  background-color: #333;
-}
-
-#board-player-list {
-  line-height: 2;
-  margin-top: 2rem;
-}*/
 
 /*=============================
       PLAYER PROFILE PAGE
@@ -992,7 +957,7 @@ p.submitted-by {
   background-image: url(../img/latest-hero2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 2rem;
+  margin-top: 1.3rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -1066,6 +1031,18 @@ h3.price-tag {
   margin-top: 1rem;
 }
 
+.edit-option p {
+  display: inline;
+}
+
+/*============================
+        PURCHASE PAGE
+============================*/
+
+.purchase-form-field {
+  margin-top: 1rem;
+}
+
 /*===============================
       REVIEW PURCHASE PAGE
 ===============================*/
@@ -1088,7 +1065,7 @@ h3.price-tag {
 
 .payment-info p {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 1.6rem;
 }
 
@@ -1328,7 +1305,7 @@ input[type="number"]{
 .main-section {
   height: auto;
   width: 80%;
-  padding-top: 0rem !important;
+  padding-top: 0 !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1388,7 +1365,7 @@ ul.noListStyle {
 
 
 /* Responsive nav bar */
-@media(max-width: 58em) {
+@media(max-width: 61em) {
   .menu-icon {
     display: block;
     margin-right: 2rem;
