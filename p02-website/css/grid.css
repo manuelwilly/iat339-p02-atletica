@@ -210,8 +210,14 @@ MAX-WIDTH MEDIA QUERIES
 		padding: .7rem 1.5rem;
 	}
 
+	/*fix page banner height for mobile*/
+	.hero-banner {
+		height: 9rem;
+		padding: 2.2rem;
+	}
+
 	.hero-banner h1 {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		line-height: 1.2;
 	}
 
