@@ -430,10 +430,14 @@ section p {
   height: 5rem;
 }
 
+.footer-link {
+  margin-top: 0.4rem;
+}
+
 footer {
-  height: 8rem;
+  height: 9rem;
   background: #034a6d;
-  padding-top: 3rem;
+  padding-top: 2.6rem;
 }
 
 footer p {
@@ -441,7 +445,7 @@ footer p {
   color: #ccc;
   font-size: .8rem;
   letter-spacing: .1rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
 }
 
 footer p a {
@@ -629,10 +633,6 @@ footer p a:not(:first-child){
   font-size: 1rem;
   margin-top: 1.4rem;
   margin-bottom: 0.2rem;
-}
-
-.clear {
-  clear: both;
 }
 
 /*===========================
@@ -879,7 +879,7 @@ footer p a:not(:first-child){
 }
 
 .product-description h2 {
-  margin-top:0;
+  margin-top: 0;
 }
 
 .dropdown h3 {
@@ -1110,6 +1110,46 @@ h3.price-tag {
   padding: 0;
 }
 
+/*==========================
+      CONTACT US PAGE
+==========================*/
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 19rem;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*===========================
+      WORKS CITED PAGE
+===========================*/
+
+#citation-section {
+  height: auto;
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.citation-list {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.citation-list h4 {
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
 /*=========================
     INTERACTIVE ELEMENTS
 ===========================*/
@@ -1241,6 +1281,10 @@ input[type="number"]{
   margin-top: 1rem;
 }
 
+.dropdown-next {
+  margin-top: -1rem;
+}
+
 .dropdown select {
   width: 12rem;
   height: 3.2rem;
@@ -1337,17 +1381,16 @@ ul.noListStyle {
   background: #333;
 }
 
-.stripTextDecoration {
-  text-decoration: none;
-  border: 0;
-}
-
 .dBlock {
   display: block;
 }
 
-.w100 {
+.full-width {
   width: 100%;
+}
+
+.clear {
+  clear: both;
 }
 
 

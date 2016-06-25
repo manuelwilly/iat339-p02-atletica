@@ -79,14 +79,6 @@ MAX-WIDTH MEDIA QUERIES
 }
 
 @media (max-width: 72em) {
-	.hide-md {
-		display: none;
-	}
-
-	.visible-md {
-		display: initial;
-	}
-
 	.col-3of12 {
 		width: 50%;
 	}
@@ -95,12 +87,20 @@ MAX-WIDTH MEDIA QUERIES
 		width: 50%;
 	}
 
-	#predictiveSearchResults .col-3of12 {
-		width: 25%;
-	}
-
 	.col-8of12 {
 		width: 100%;
+	}
+
+	.hide-md {
+		display: none;
+	}
+
+	.visible-md {
+		display: initial;
+	}
+	
+	#predictiveSearchResults .col-3of12 {
+		width: 25%;
 	}
 
 	h1 {
@@ -121,6 +121,10 @@ MAX-WIDTH MEDIA QUERIES
 	/*collapse product content into a single column faster*/
 	.product-info .col-6of12 {
 		width: 100%;
+	}
+
+	.product-description h2 {
+	  margin-top: 2rem;
 	}
 
 	.product-review {
@@ -154,13 +158,9 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 2rem;
 	}
 
-	.breadcrumb, #feature-board, #league-board, #team-board, #player-section, 
-	#product-section, #latest-section, #search-results-section {
+	.breadcrumb, .main-section, #feature-board, #league-board, #team-board, #player-section, 
+	#product-section, #latest-section, #search-results-section, #citation-section {
 		width: 98%;
-	}
-
-	.main-section {
-		width: 100%;
 	}
 
 	.board-league2 {
@@ -182,14 +182,12 @@ MAX-WIDTH MEDIA QUERIES
 	.latest-product .col-3of12 {
 		width: 100%;
 	}
-
-	.product-description .dropdown-next {
-		margin-top: -1.8rem;
-	}
 }
 
 @media (max-width: 32em) {
+	/*use smaller images for mobile*/
 	#company-banner {
+		background-image: url("../img/homepage-banner-x1.jpg");
 		padding: 3rem;
 	}
 
@@ -212,6 +210,7 @@ MAX-WIDTH MEDIA QUERIES
 
 	/*fix page banner height for mobile*/
 	.hero-banner {
+  		background-image: url("../img/bg-banner-x1.jpg");
 		height: 9rem;
 		padding: 2.2rem;
 	}
@@ -219,6 +218,15 @@ MAX-WIDTH MEDIA QUERIES
 	.hero-banner h1 {
 		font-size: 1.4rem;
 		line-height: 1.2;
+	}
+
+	/*use smaller images for mobile*/
+	.board-findplayer {
+	 	background-image: url('../img/findplayer-x1.jpg');
+	}
+
+	.board-latestreleases {
+		background-image: url('../img/latest-releases-x1.jpg');
 	}
 
 	/*shrink team banner size for mobile*/
