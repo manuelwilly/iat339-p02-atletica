@@ -229,6 +229,10 @@ MAX-WIDTH MEDIA QUERIES
 		background-image: url('../img/latest-releases-x1.jpg');
 	}
 
+	.player-info {
+	 	background-image: url(../img/sergio-aguero-x1.jpg);
+	}
+
 	/*shrink team banner size for mobile*/
 	.hero-container {
 		height: 14rem;
