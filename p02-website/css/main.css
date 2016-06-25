@@ -1114,14 +1114,22 @@ h3.price-tag {
       CONTACT US PAGE
 ==========================*/
 
-.map-responsive{
+#contact-us-section {
+  height: auto;
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map-responsive {
     overflow: hidden;
     padding-bottom: 19rem;
     position: relative;
     height: 0;
 }
 
-.map-responsive iframe{
+.map-responsive iframe {
     height: 100%;
     width: 100%;
     position: absolute;
