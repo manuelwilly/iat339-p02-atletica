@@ -188,6 +188,11 @@ MAX-WIDTH MEDIA QUERIES
 	.latest-product .col-3of12 {
 		width: 100%;
 	}
+
+	/*fixed top margin of news article*/
+	.news-article article {
+	  margin-top: 1rem;
+	}
 }
 
 @media (max-width: 32em) {

@@ -1231,7 +1231,7 @@ h3.price-tag {
 }
 
 .news-article article {
-  margin-top: 0.4rem;
+  margin-top: 1.4rem;
 }
 
 .news-article h2 {
@@ -1245,6 +1245,29 @@ h3.price-tag {
 
 .news-article p {
   margin-bottom: 0.6rem;
+}
+
+/*social media icons for sharing*/
+.share-icons img {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.share-icons {
+  margin-top: 1.6rem;
+}
+
+.share-icon {
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.share-icon:hover {
+  opacity: 0.6;
 }
 
 /*=========================
