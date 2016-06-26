@@ -158,8 +158,10 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 2rem;
 	}
 
-	.breadcrumb, #feature-board , #team-board, #player-section, #product-section, 
-	#latest-section, #search-results-section, #contact-us-section, #citation-section {
+	.breadcrumb, #feature-board , #team-board, 
+	#player-section, #product-section, #latest-section, 
+	#search-results-section, #contact-us-section, 
+	#citation-section, #news-section {
 		width: 98%;
 	}
 

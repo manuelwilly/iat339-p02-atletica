@@ -1195,6 +1195,41 @@ h3.price-tag {
 }
 
 /*=========================
+        NEWS PAGE
+=========================*/
+
+#news-section {
+  height: auto;
+  width: 80%;
+  margin-top: -2.1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-article {
+  margin-top: 3.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.news-article article {
+  margin-top: 0.4rem;
+}
+
+.news-article h2 {
+  margin-top: 3rem;
+}
+
+.news-article h4 {
+  margin-bottom: 0.8rem;
+  margin-top: 0.6rem;
+}
+
+.news-article p {
+  margin-bottom: 0.6rem;
+}
+
+/*=========================
     INTERACTIVE ELEMENTS
 ===========================*/
 
