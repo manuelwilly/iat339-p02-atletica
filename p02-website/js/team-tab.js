@@ -3,10 +3,10 @@ $(document).ready(function(){
 	
 	// when a tab is pressed
 	$(".mancity").click(function(){		
-		$(".hero-mancity").animate({left: "0"});
-		$(".hero-manutd").animate({left: "-100%"});
-		$(".hero-chelsea").animate({left: "-100%"});
-		$(".hero-arsenal").animate({left: "-100%"});
+		$(".banner-mancity").animate({left: "0"});
+		$(".banner-manutd").animate({left: "-100%"});
+		$(".banner-chelsea").animate({left: "-100%"});
+		$(".banner-arsenal").animate({left: "-100%"});
 		$(".mancity-container").animate({left: "0"});
 		$(".manutd-container").animate({left: "-100%"});
 		$(".chelsea-container").animate({left: "-100%"});
@@ -18,10 +18,10 @@ $(document).ready(function(){
 	});
 	
 	$(".manutd").click(function(){
-		$(".hero-mancity").animate({left: "-100%"});
-		$(".hero-manutd").animate({left: "0"});
-		$(".hero-chelsea").animate({left: "-100%"});
-		$(".hero-arsenal").animate({left: "-100%"});
+		$(".banner-mancity").animate({left: "-100%"});
+		$(".banner-manutd").animate({left: "0"});
+		$(".banner-chelsea").animate({left: "-100%"});
+		$(".banner-arsenal").animate({left: "-100%"});
 		$(".mancity-container").animate({left: "-100%"});
 		$(".manutd-container").animate({left: "0"});
 		$(".chelsea-container").animate({left: "-100%"});
@@ -33,10 +33,10 @@ $(document).ready(function(){
 	});
 
 	$(".chelsea").click(function(){
-		$(".hero-mancity").animate({left: "-100%"});
-		$(".hero-manutd").animate({left: "-100%"});
-		$(".hero-chelsea").animate({left: "0"});
-		$(".hero-arsenal").animate({left: "-100%"});
+		$(".banner-mancity").animate({left: "-100%"});
+		$(".banner-manutd").animate({left: "-100%"});
+		$(".banner-chelsea").animate({left: "0"});
+		$(".banner-arsenal").animate({left: "-100%"});
 		$(".mancity-container").animate({left: "-100%"});
 		$(".manutd-container").animate({left: "-100%"});
 		$(".chelsea-container").animate({left: "0"});
@@ -48,10 +48,10 @@ $(document).ready(function(){
 	});
 
 	$(".arsenal").click(function(){
-		$(".hero-mancity").animate({left: "-100%"});
-		$(".hero-manutd").animate({left: "-100%"});
-		$(".hero-chelsea").animate({left: "-100%"});
-		$(".hero-arsenal").animate({left: "0"});
+		$(".banner-mancity").animate({left: "-100%"});
+		$(".banner-manutd").animate({left: "-100%"});
+		$(".banner-chelsea").animate({left: "-100%"});
+		$(".banner-arsenal").animate({left: "0"});
 		$(".mancity-container").animate({left: "-100%"});
 		$(".manutd-container").animate({left: "-100%"});
 		$(".chelsea-container").animate({left: "-100%"});

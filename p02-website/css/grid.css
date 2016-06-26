@@ -219,7 +219,13 @@ MAX-WIDTH MEDIA QUERIES
 		padding: 2.2rem;
 	}
 
-	.hero-banner h1 {
+	.findplayer-banner {
+  		background-image: url("../img/findplayer-banner-x1.jpg");
+		height: 9rem;
+		padding: 2.2rem;
+	}
+
+	.hero-banner h1, .findplayer-banner h1 {
 		font-size: 1.4rem;
 		line-height: 1.2;
 	}
@@ -238,13 +244,13 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	/*shrink team banner size for mobile*/
-	.hero-container {
-		height: 14rem;
+	.team-banner-container {
+		height: 12rem;
 	}
 
-	.hero-mancity, .hero-manutd, 
-	.hero-chelsea, .hero-arsenal {
-		height: 14em;
+	.banner-mancity, .banner-manutd, 
+	.banner-chelsea, .banner-arsenal {
+		height: 12em;
 	}
 
 	/*resize board box height for mobile*/
