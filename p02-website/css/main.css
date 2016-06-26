@@ -552,7 +552,8 @@ footer p a:not(:first-child){
   background: #e6e6e6;
 }
 
-.board-findplayer:hover, .board-aboutus-home:hover, .board-latestreleases:hover {
+.board-findplayer:hover, .board-latestreleases:hover,
+.board-aboutus-home:hover, .board-news:hover {
   outline: 3px solid #333;
 }
 
