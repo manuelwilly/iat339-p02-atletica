@@ -527,7 +527,7 @@ footer p a:not(:first-child){
 }
 
 .board-findplayer {
-  background-image: url('../img/findplayer.jpg');
+  background-image: url("../img/findplayer.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -539,7 +539,7 @@ footer p a:not(:first-child){
 }
 
 .board-latestreleases {
-  background-image: url('../img/latest-releases.jpg');
+  background-image: url("../img/latest-releases.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -577,7 +577,7 @@ footer p a:not(:first-child){
 }
 
 .board-aboutus-home {
-  background-image: url('../img/office.jpg');
+  background-image: url("../img/office.jpg");
   background-size: cover;
   color: #fff;
   margin-top: 2rem;
@@ -590,7 +590,7 @@ footer p a:not(:first-child){
 }
 
 .board-aboutus-profile {
-  background-image: url('../img/office.jpg');
+  background-image: url("../img/office.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -602,7 +602,7 @@ footer p a:not(:first-child){
 }
 
 .board-aboutus-mission {
-  background-image: url('../img/about-mission.jpg');
+  background-image: url("../img/about-mission.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -613,7 +613,7 @@ footer p a:not(:first-child){
 }
 
 .board-aboutus-guarantee {
-  background-image: url('../img/about-guarantee.jpg');
+  background-image: url("../img/about-guarantee.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -1113,13 +1113,31 @@ h3.price-tag {
       THANK YOU PAGE
 =========================*/
 
+#thank-you-section {
+  height: auto;
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .purchase-complete {
-  background: #f1f1f1;
+  background-image: url("../img/packaging.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
   margin-top: 1.3rem;
   padding-top: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   padding-bottom: 24rem;
+}
+
+.purchase-complete h2 {
+  color: #fff;
+  font-weight: 300;
+  border-bottom: 3px solid #fff;
 }
 
 .promotional-link {

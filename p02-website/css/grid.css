@@ -160,8 +160,8 @@ MAX-WIDTH MEDIA QUERIES
 
 	.breadcrumb, #feature-board , #team-board, 
 	#player-section, #product-section, #latest-section, 
-	#search-results-section, #contact-us-section, 
-	#citation-section, #news-section {
+	#search-results-section, #contact-us-section, #news-section,
+	#citation-section, #thank-you-section {
 		width: 98%;
 	}
 
@@ -234,15 +234,19 @@ MAX-WIDTH MEDIA QUERIES
 
 	/*use smaller images for mobile*/
 	.board-findplayer {
-	 	background-image: url('../img/findplayer-x1.jpg');
+	 	background-image: url("../img/findplayer-x1.jpg");
 	}
 
 	.board-latestreleases {
-		background-image: url('../img/latest-releases-x1.jpg');
+		background-image: url("../img/latest-releases-x1.jpg");
 	}
 
 	.player-info {
-	 	background-image: url(../img/sergio-aguero-x1.jpg);
+	 	background-image: url("../img/sergio-aguero-x1.jpg");
+	}
+
+	.purchase-complete {
+	  background-image: url("../img/packaging-x1.jpg");
 	}
 
 	/*shrink team banner size for mobile*/
@@ -256,7 +260,6 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	/*resize board box height for mobile*/
-
 	.board-findplayer, .board-latestreleases, .board-aboutus,
 	.board-aboutus-home, .board-news, .board-standard {
   		height: 21rem;
