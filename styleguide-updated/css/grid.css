@@ -87,6 +87,10 @@ MAX-WIDTH MEDIA QUERIES
 	.col-6of12 {
 		width: 100%;
 	}
+
+	#interactive_elements, #text_elements, #combined_elements {
+		padding: 1rem;
+	}
 }
 
 @media (max-width: 32em) {
