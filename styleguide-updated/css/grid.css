@@ -66,10 +66,56 @@ MIN-WIDTH MEDIA QUERIES
 MAX-WIDTH MEDIA QUERIES
 ---
 */
-@media (max-width: 84.375em) {
+@media (max-width: 84em) {
 	/*slightly less padding on smaller screens. prevents h2 from becoming more than 1 line*/
 	[class*='col-'] {
 		padding-left: 1rem;
 		padding-right: 1rem;
+	}
+}
+
+
+@media (max-width: 54em) {
+	.col-3of12 {
+		width: 50%;
+	}
+
+	.col-4of12 {
+		width: 100%;
+	}
+
+	.col-6of12 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 32em) {
+	#company {
+		padding: 3rem;
+	}
+
+	#company h1 {
+		margin: 0;
+		padding-bottom: 0.4rem;
+		border-bottom: 0.1px solid #fff;
+		display: inline;
+		font-size: 2.1rem;
+	}
+
+	#company h2 {
+		margin-bottom: -0.4rem;
+		font-size: 1rem;
+	}
+
+	#company h3 {
+		margin-top: 0.4rem;
+		font-size: 0.8rem;
+	}
+
+	#company p.company-info {
+		margin-top: 1rem;
+		font-size: 0.7rem;
+		font-weight: 300;
+		width: 100%;
 	}
 }

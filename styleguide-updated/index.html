@@ -49,7 +49,7 @@
     <section id="interactive_elements">
 
       <!-- Default Button styling section -->
-      <div class="col-6of12"> 
+      <div class="col-6of12">
         <div class="interactive-element">
           <h2>In-text link</h2>
 
@@ -64,7 +64,7 @@
         </div>
       </div>
 
-      <div class="col-6of12"> 
+      <div class="col-6of12">
         <div class="interactive-element">
           <h2>Text Input Field</h2>
 
@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="col-6of12"> 
+      <div class="col-6of12">
         <div class="interactive-element">
           <h2>Default/Header Buttons</h2>
 
@@ -129,26 +129,33 @@
             <h3>Sample code:</h3>
             <code>
             &lt;div class="dropdown"&gt;<br>
+              <span class="indent"> </span>&lt;h3&gt;Size&lt;/h3&gt;<br>
               <span class="indent"> </span>&lt;select&gt;<br>
               <span class="indent indent-2"> </span>&lt;option class="dropdown-text"&gt;Select size&lt;/option&gt;<br>
               <span class="indent indent-2"> </span>&lt;option value="8"&gt;&lt;/option&gt;<br>
               <span class="indent indent-2"> </span>&lt;option value="8.5"&gt;&lt;/option&gt;<br>
               <span class="indent indent-2"> </span>&lt;option value="9"&gt;&lt;/option&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option value="9.5"&gt;&lt;/option&gt;<br>
+              <span class="indent indent-2"> </span>&lt;option value="10"&gt;&lt;/option&gt;<br>
               <span class="indent"> </span>&lt;/select&gt;<br>
             &lt;/div&gt;
             </code>
 
             <h3>Rendered element:</h3>
               <div class="dropdown">
+                <h3>Size</h3>
                 <select>
                   <option class="dropdown-text">Select size</option>
                   <option value="1">8</option>
                   <option value="2">8.5</option>
                   <option value="3">9</option>
+                  <option value="3">9.5</option>
+                  <option value="3">10</option>
                 </select>
               </div>
 
-              <div class="dropdown">
+              <div class="dropdown dropdown-next">
+                <h3>Quantity</h3>
                 <select>
                   <option class="dropdown-text">Select quantity</option>
                   <option value="1">1</option>
@@ -179,7 +186,7 @@
           <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
 
           <h3>Rendered element:</h3>
-          <h1>Heading 1</h1>
+          <p class="title">Heading 1</p>
 
           <h3>CSS selector:</h3>
           <!-- Subtitle -->
@@ -211,10 +218,16 @@
           <p>p</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;p&gt;This is a sample paragraph text for use on the company website. It is just a simple paragraph that uses Open Sans font with 300 weight and a black color text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, tellus non hendrerit dictum, metus nulla maximus quam, non semper nunc nisi sit amet ante.&lt;/p&gt;</code>
+          <code>&lt;p&gt;This is a sample paragraph text for use on the company website. It is just a simple paragraph 
+            that uses Open Sans font with 300 weight and a black color text. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc porttitor, tellus non hendrerit dictum, metus nulla maximus quam, non semper nunc 
+            nisi sit amet ante.&lt;/p&gt;</code>
 
           <h3>Rendered element:</h3>
-          <p>This is a sample paragraph text for use on the company website. It is just a simple paragraph that uses Open Sans font with 300 weight and a black color text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, tellus non hendrerit dictum, metus nulla maximus quam, non semper nunc nisi sit amet ante.</p>
+          <p>This is a sample paragraph text for use on the company website. It is just a simple paragraph 
+            that uses Open Sans font with 300 weight and a black color text. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Nunc porttitor, tellus non hendrerit dictum, metus nulla maximus quam, non semper nunc 
+            nisi sit amet ante.</p>
         </div>
       </div>
 
@@ -294,10 +307,10 @@
             <span class="indent"></span>&lt;a class="logo-link" href="index.html"&gt;Logo&lt;/a&gt;<br>
             <span class="indent"></span>&lt;ul class="menu"&gt;<br>
               <span class="indent indent-2"></span>&lt;li class="home-link"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;<br>
-              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;<br>
-              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;<br>
-              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;<br>
-              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Menu&lt;/a&gt;&lt;/li&gt;<br>
+              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Find Your Player&lt;/a&gt;&lt;/li&gt;<br>
+              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Latest Releases&lt;/a&gt;&lt;/li&gt;<br>
+              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;Blog&lt;/a&gt;&lt;/li&gt;<br>
+              <span class="indent indent-2"></span>&lt;li&gt;&lt;a href="#"&gt;My Cart&lt;/a&gt;&lt;/li&gt;<br>
             <span class="indent"></span>&lt;/ul&gt;<br>
           &lt;/nav&gt;
           </code>
@@ -308,10 +321,10 @@
               <a class="logo-link" href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
               <ul class="menu">
                 <li class="home-link"><a href="index.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="#">Find Your Player</a></li>
+                <li><a href="#">Latest Releases</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">My Cart</a></li>
               </ul>
             </nav>
         </div>
@@ -328,27 +341,34 @@
           <code>
           &lt;div class="product-thumbnail"&gt;<br>
             <span class="indent"></span>&lt;img src="img/product.jpg"&gt;<br>
-            <span class="indent"></span>&lt;h2&gt;Product Title&lt;/h2&gt;<br>
-            <span class="indent"></span>&lt;p&gt;Product details and information text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;<br>
+            <span class="indent"></span>&lt;h2&gt;Puma evoSPEED 1.3 FG&lt;/h2&gt;<br>
+            <span class="indent"></span>&lt;p&gt;Celebrating its heritage and legacy of speed, the PUMA v1.06 10th FG football 
+            boots feature the same unique outsole and pattern as the original boots, which were released in 2006.&lt;/p&gt;<br>
           &lt;/div&gt;
           </code>
 
           <h3>Rendered element:</h3>
-          <a href="#">
-            <div class="product-thumbnail">
-              <img src="img/product.jpg" alt="product image">
-              <h2>Product Title</h2>
-              <p>Product details and information text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </a>
+          <div class="col-4of12">
+            <a href="#">
+              <div class="product-thumbnail">
+                <img src="img/product.jpg" alt="product image">
+                <h2>Puma evoSPEED 1.3 FG</h2>
+                <p>Celebrating its heritage and legacy of speed, the PUMA v1.06 10th FG football boots feature 
+                  the same unique outsole and pattern as the original boots, which were released in 2006.</p>
+              </div>
+            </a>
+          </div>
 
-          <a href="#">
-            <div class="product-thumbnail">
-              <img src="img/product.jpg" alt="product image">
-              <h2>Product Title</h2>
-              <p>Product details and information text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </a>
+          <div class="col-4of12">
+            <a href="product-details.html">
+              <div class="product-thumbnail">
+                <img src="img/product-2.jpg" alt="product image">
+                <h2>Puma evoPOWER 3.2 FG Youths</h2>
+                <p>With a new GripTex print for improved control and soft PU upper, get more power and accuracy 
+                  with every kick in the Puma evoPOWER 3.2 FG Jr kids soccer cleats.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -401,10 +421,10 @@
           <h2>Default Color Palette</h2>
           <p>Colors to be used for both text and assets</p>
             <div class="shape">
-              <div id="square-black"><p>#111111</p></div>
+              <div id="square-black"><p>#000000</p></div>
             </div>
             <div class="shape">
-              <div id="square-dark-gray"><p>#292B2E</p></div>
+              <div id="square-dark-gray"><p>#333333</p></div>
             </div>
             <div class="shape">
               <div id="square-gray"><p>#5D5E5E</p></div>
@@ -413,7 +433,7 @@
               <div id="square-blue"><p>#0286CE</p></div>
             </div>
             <div class="shape">
-              <div id="square-light-gray"><p>#F0F0F0</p></div>
+              <div id="square-light-gray"><p>#F1F1F1</p></div>
             </div>
             <div class="shape">
               <div id="square-white"><p>#FFFFFF</p></div>

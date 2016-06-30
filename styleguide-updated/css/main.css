@@ -23,6 +23,9 @@ body {
 p {
   margin: 0;
   padding: 0;
+  font-size: .9rem;
+  line-height: 160%;
+  letter-spacing: 0.02rem;
 }
 
 a {
@@ -33,13 +36,6 @@ a {
 
 /* Styling for: main title on the splash page and style guide */
 header {
-  /*background-image: url("../img/bg-banner.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: top;*/
   text-align: center;
 }
 
@@ -290,8 +286,19 @@ select option {
   margin-right: 0.5rem;
 }
 
-.dropdown select 
-{
+.dropdown-next {
+  margin-top: -1rem;
+}
+
+.dropdown h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.dropdown select {
   width: 12rem;
   height: 3.2rem;
   border: 0.1rem solid #000;
@@ -303,7 +310,7 @@ select option {
   font-size: 1rem;
   background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
   -webkit-appearance: none;
-  background-position-x: 10.2rem;
+  background-position: 10.2rem;
 }
 
 /*========================
@@ -324,7 +331,7 @@ select option {
   margin-bottom: 1rem;
 }
 
-h1 {
+h1, .title {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 3rem;
@@ -440,9 +447,9 @@ nav .logo-link:hover {
 /*the hamburger menu button*/
 .menu-icon {
   float: right;
-  color: #fff;
+  color: #0286ce;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  border: 1px solid #0286ce;
   padding: 0.5rem;
   font-size: .7rem;
   cursor: pointer;
@@ -452,8 +459,8 @@ nav .logo-link:hover {
 .menu-icon:hover,
 .menu-icon:active,
 .menu-icon:focus {
-  color: #999;
-  border: 1px solid #999;
+  color: #fff;
+  border: 1px solid #0286ce;
 }
 
 /*the logo in the nav bar*/
@@ -462,8 +469,6 @@ nav img.logo {
   width: 40px;
   height: auto;
   margin-top: -0.6rem;
-  -webkit-transition: opacity 0.1s;
-  transition: opacity 0.1s;
 }
 
 nav img.logo:hover,
@@ -482,11 +487,10 @@ nav img.logo:focus {
 
 /* Styling for: product preview thumbnail/product listing */
 .product-thumbnail {
-  width: 30rem;
+  width: auto;
   display: inline-block;
-  padding: 1rem;
+  padding: 0.4rem;
   margin-bottom: 1.6rem;
-  margin-right: 1rem;
 }
 
 .product-thumbnail img {
@@ -551,7 +555,7 @@ nav img.logo:focus {
 }
 
 #square-black {
-  background-color: #111111;
+  background-color: #000000;
 }
 
 #square-blue {
@@ -563,11 +567,15 @@ nav img.logo:focus {
 }
 
 #square-dark-gray {
-  background-color: #292b2e;
+  background-color: #333333;
 }
 
 #square-light-gray {
-  background-color: #f0f0f0;
+  background-color: #f1f1f1;
+}
+
+#square-light-gray p {
+  color: #000;
 }
 
 #square-white {
@@ -580,7 +588,7 @@ nav img.logo:focus {
 }
 
 /* Responsive nav bar */
-@media(max-width: 54em) {
+@media(max-width: 55em) {
   .menu-icon {
     display: block;
     margin-right: 2rem;
@@ -600,7 +608,7 @@ nav img.logo:focus {
   }
 
   nav {
-    background: #222;
+    background: #fff;
     padding-top: 1rem;
     height: 4rem;
     padding-left: 0;
@@ -611,7 +619,7 @@ nav img.logo:focus {
     display: none;
     clear: both;
     float: none;
-    background: #222;
+    background: #fff;
   }
 
   nav ul li { 
@@ -626,14 +634,23 @@ nav img.logo:focus {
     padding: 1.5rem;
     width: 100%;
     display: inline-block;
-    color: #DDD;
+    text-align: center;
+    color: #333;
   }
 
   nav a:hover,
   nav a:active,
   nav a:focus {
     border-bottom: none;
-    background: #333;
+    background: #0286ce;
+    color: #fff;
+  }
+
+  nav #searchBar a:hover,
+  nav #searchBar a:active,
+  nav #searchBar a:focus {
+      color: #0286ce;
+      background: #fff;
   }
 
   nav a.logo-link:hover,
