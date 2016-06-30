@@ -8,7 +8,8 @@
 */
 
 input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
-  -webkit-appearance: none; -moz-appearance: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
 }
 
 *, *:after, *:before {
@@ -22,11 +23,6 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-}
-
-p {
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -99,6 +95,8 @@ h3.larger {
 }
 
 p {
+  margin: 0;
+  padding: 0;
   font-size: .9rem;
   line-height: 160%;
   letter-spacing: 0.02rem;
@@ -148,6 +146,7 @@ nav a {
   margin-left: 3rem;
   text-transform: uppercase;
   -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
   transition: all 0.1s;
   color: #333;
 }
@@ -452,7 +451,18 @@ section p {
 }
 
 .footer-link {
-  margin-top: 0.4rem;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.footer-link a {
+  font-size: .6rem;
+  font-weight: 600;
+
+  letter-spacing: .1rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
 }
 
 footer {
@@ -466,16 +476,7 @@ footer p {
   color: #ccc;
   font-size: .8rem;
   letter-spacing: .1rem;
-  margin-bottom: 0.2rem;
-}
-
-footer p a {
-  font-size: .6rem;
-  font-weight: 600;
-}
-
-footer p a:not(:first-child){
-  margin-left: 1em;
+  margin-bottom: 0.3rem;
 }
 
 /*==========================
@@ -518,7 +519,7 @@ footer p a:not(:first-child){
 }
 
 .board, .board-findplayer, .board-aboutus, .board-aboutus-home, 
-.board-news, .board-latestreleases, .board-lightGray, .board-standard {
+.board-blog, .board-latestreleases, .board-lightGray, .board-standard {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
@@ -553,8 +554,11 @@ footer p a:not(:first-child){
 }
 
 .board-findplayer:hover, .board-latestreleases:hover,
-.board-aboutus-home:hover, .board-news:hover {
+.board-aboutus-home:hover, .board-blog:hover {
   outline: 3px solid #333;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 .board-findplayer {
@@ -635,26 +639,26 @@ footer p a:not(:first-child){
   margin-top: 2rem;
 }
 
-.board-news, .board-standard {
+.board-blog, .board-standard {
   margin-top: 2rem;
   height: 18rem;
 }
 
-.board-news {
+.board-blog {
   background: #0286ce;
   color: #fff;
 }
 
-.board-news h2 {
+.board-blog h2 {
   color: #fff;
   border-bottom: 3px solid #fff;
   margin-bottom: 0;
 }
 
-.board-news h3 {
+.board-blog h3 {
   font-size: 1rem;
   margin-top: 1.4rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 }
 
 /*===========================
@@ -728,6 +732,7 @@ footer p a:not(:first-child){
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
 
   color: #0286ce;
@@ -1213,10 +1218,10 @@ h3.price-tag {
 }
 
 /*=========================
-        NEWS PAGE
+        BLOG PAGE
 =========================*/
 
-#news-section {
+#blog-section {
   height: auto;
   width: 80%;
   margin-top: -2.1rem;
@@ -1224,26 +1229,26 @@ h3.price-tag {
   margin-right: auto;
 }
 
-.news-article {
+.blog-article {
   margin-top: 3.6rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.news-article article {
+.blog-article article {
   margin-top: 1.4rem;
 }
 
-.news-article h2 {
+.blog-article h2 {
   margin-top: 3rem;
 }
 
-.news-article h4 {
+.blog-article h4 {
   margin-bottom: 0.8rem;
   margin-top: 0.6rem;
 }
 
-.news-article p {
+.blog-article p {
   margin-bottom: 0.6rem;
 }
 
@@ -1259,11 +1264,11 @@ h3.price-tag {
 }
 
 .share-icon {
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  -ms-transition: all 0.1s;
-  -o-transition: all 0.1s;
-  transition: all 0.1s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .share-icon:hover {
@@ -1343,6 +1348,7 @@ input[type="number"]{
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1487,11 +1493,7 @@ ul.noListStyle {
   margin: 0 !important;
 }
 
-.mt06e {
-  margin-top: 0.6em;
-}
-
-.mt2e {
+.small-margin-top {
   margin-top: 2em;
 }
 
@@ -1499,10 +1501,6 @@ ul.noListStyle {
   height: 1px;
   margin: 1em 0 1em 0;
   background: #333;
-}
-
-.dBlock {
-  display: block;
 }
 
 .full-width {
@@ -1528,7 +1526,7 @@ ul.noListStyle {
 
 
 /* Responsive nav bar */
-@media(max-width: 61em) {
+@media(max-width: 68em) {
   .menu-icon {
     display: block;
     margin-right: 2rem;
@@ -1565,7 +1563,9 @@ ul.noListStyle {
   nav #searchBar{
     width: 100%;
     display: none;
-    margin-bottom: 0.4em;
+    padding: 0.4rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
   }
 
   nav #searchBar.not-hidden {
@@ -1573,7 +1573,7 @@ ul.noListStyle {
   }
 
   nav #searchBar #searchString input {
-    font-size: 1em;
+    font-size: 1rem;
     text-align: center;
     width: 100%;
     border-right: 0;
@@ -1586,7 +1586,6 @@ ul.noListStyle {
 
   nav #searchBar a#searchBtn {
     display: none;
-
   }
 
   nav #predictiveSearchResults ul {
@@ -1632,6 +1631,6 @@ ul.noListStyle {
 
   /* Checkout Page */
   input[name='cardExpiryMonth'], input[name='cardExpiryYear']{
-    width: 5em;
+    width: 5rem;
   }
 }

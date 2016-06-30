@@ -160,7 +160,7 @@ MAX-WIDTH MEDIA QUERIES
 
 	.breadcrumb, #feature-board , #team-board, 
 	#player-section, #product-section, #latest-section, 
-	#search-results-section, #contact-us-section, #news-section,
+	#search-results-section, #contact-us-section, #blog-section,
 	#citation-section, #thank-you-section {
 		width: 98%;
 	}
@@ -190,7 +190,7 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	/*fixed top margin of news article*/
-	.news-article article {
+	.blog-article article {
 	  margin-top: 1rem;
 	}
 }
@@ -266,7 +266,7 @@ MAX-WIDTH MEDIA QUERIES
 
 	/*resize board box height for mobile*/
 	.board-findplayer, .board-latestreleases, .board-aboutus,
-	.board-aboutus-home, .board-news, .board-standard {
+	.board-aboutus-home, .board-blog, .board-standard {
   		height: 21rem;
 		padding-top: 0.4rem;
 		padding-left: 2rem;
