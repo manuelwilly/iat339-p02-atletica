@@ -97,6 +97,7 @@ MAX-WIDTH MEDIA QUERIES
 
 	.visible-md {
 		display: initial;
+		font-size: 0.8rem;
 	}
 	
 	#predictiveSearchResults .col-3of12 {
@@ -135,6 +136,11 @@ MAX-WIDTH MEDIA QUERIES
 		width: 100%;
 	}
 
+	/*increase board height to keep the text inside the box*/
+	.board-aboutus-mission, .board-aboutus-guarantee {
+	  height: 25rem;
+	}
+
 	.content-container {
 		height: 34rem;
 	}
@@ -160,8 +166,8 @@ MAX-WIDTH MEDIA QUERIES
 
 	.breadcrumb, #feature-board , #team-board, 
 	#player-section, #product-section, #latest-section, 
-	#search-results-section, #contact-us-section, #blog-section,
-	#citation-section, #thank-you-section {
+	#search-results-section, #contact-us-section, #address-section,
+	#blog-section, #citation-section, #thank-you-section {
 		width: 98%;
 	}
 
@@ -169,8 +175,9 @@ MAX-WIDTH MEDIA QUERIES
 		width: 90%;
 	}
 
-	.board-league2 {
-		margin-top: 2rem;
+	/*revert board height to normal*/
+	.board-aboutus-mission, .board-aboutus-guarantee {
+	  height: 18rem;
 	}
 
 	.mancity, .manutd, .chelsea, .arsenal {
