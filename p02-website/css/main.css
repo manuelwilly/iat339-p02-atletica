@@ -519,7 +519,7 @@ footer p {
 }
 
 .board, .board-findplayer, .board-aboutus, .board-aboutus-home, 
-.board-blog, .board-latestreleases, .board-lightGray, .board-standard {
+.board-blog, .board-latestproducts, .board-lightGray, .board-standard {
   background: #e6e6e6;
   padding-top: 1rem;
   padding-left: 3rem;
@@ -539,8 +539,8 @@ footer p {
   border-bottom: 3px solid #fff;
 }
 
-.board-latestreleases {
-  background-image: url("../img/latest-releases.jpg");
+.board-latestproducts {
+  background-image: url("../img/latest-products.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -553,7 +553,7 @@ footer p {
   background: #e6e6e6;
 }
 
-.board-findplayer:hover, .board-latestreleases:hover,
+.board-findplayer:hover, .board-latestproducts:hover,
 .board-aboutus-home:hover, .board-blog:hover {
   outline: 3px solid #333;
   -webkit-transition: all 0.1s;
@@ -565,11 +565,11 @@ footer p {
   height: 28rem;
 }
 
-.board-latestreleases {
+.board-latestproducts {
   height: 28rem;
 }
 
-.board-latestreleases h2 {
+.board-latestproducts h2 {
   color: #fff;
   font-weight: 300;
   border-bottom: 3px solid #fff;
@@ -941,6 +941,7 @@ footer p {
 
 .product-price p {
   font-size: 2.1rem;
+  font-weight: 300;
 }
 
 .product-price a {
@@ -982,7 +983,7 @@ p.submitted-by {
 }
 
 /*=============================
-      LATEST RELEASES PAGE
+      LATEST PRODUCTS PAGE
 =============================*/
 
 #latest-section {
@@ -1181,17 +1182,21 @@ h3.price-tag {
   margin-right: auto;
 }
 
+#contact-us-section form {
+  margin-top: 1.5rem;
+}
+
 .map-responsive {
-    overflow: hidden;
-    padding-bottom: 19rem;
-    position: relative;
-    height: 0;
+  overflow: hidden;
+  padding-bottom: 19rem;
+  position: relative;
+  height: 0;
 }
 
 .map-responsive iframe {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*===========================
@@ -1408,7 +1413,7 @@ input[type="number"]{
 }
 
 .dropdown-next {
-  margin-top: -1rem;
+  margin-bottom: 1.4rem;
 }
 
 .dropdown select {
@@ -1424,7 +1429,30 @@ input[type="number"]{
   font-size: 1rem;
   background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
   -webkit-appearance: none;
-  background-position: 10.2rem;
+  background-position: 10rem;
+}
+
+.dropdown-rating {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-rating select {
+  background-color: #fff;
+  outline: none;
+
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+  -webkit-appearance: none;
+  background-position: right 13px bottom 13px;
+}
+
+.dropdown-rating h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.6rem;
 }
 
 /*==========================
@@ -1560,11 +1588,11 @@ ul.noListStyle {
     background: #fff;
   }
 
-  nav #searchBar{
+  nav #searchBar {
+    background: #fff;
     width: 100%;
     display: none;
     padding: 0.4rem;
-    margin-top: 0.1rem;
     margin-bottom: 0.3rem;
   }
 
