@@ -1,6 +1,9 @@
 $(document).ready(function(){
 	// toggle the nav
 	$('.menu-icon').click( function() { 
+		if($(this).hasClass('cart-icon')){
+			return;
+		}
 		$('.menu,#searchBar').toggleClass('not-hidden');
 	});
 

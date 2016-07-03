@@ -193,6 +193,7 @@ nav .logo-link:hover, nav .logo-link:active, nav .logo-link:focus {
   border: 1px solid #0286ce;
 }
 
+
 /*the logo in the nav bar*/
 nav img.logo {
   float: left;
@@ -1558,6 +1559,14 @@ ul.noListStyle {
   .menu-icon {
     display: block;
     margin-right: 2rem;
+    margin-left:2em;
+  }
+  .menu-icon.cart-icon{
+    margin-left:0;
+    margin-right:0em;
+  }
+  .menu-icon.cart-icon i{
+    font-size:1.15em;
   }
 
   /*home link is only visible in mobile*/
@@ -1660,5 +1669,12 @@ ul.noListStyle {
   /* Checkout Page */
   input[name='cardExpiryMonth'], input[name='cardExpiryYear']{
     width: 5rem;
+  }
+}
+
+@media (max-width:40em){
+  .menu-icon {
+    margin-right: 1.6rem;
+    margin-left:1.5em;
   }
 }
